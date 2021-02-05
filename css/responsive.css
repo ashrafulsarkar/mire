@@ -1,0 +1,111 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1362px) {
+    .hero_banner_image {
+        width: 798px;
+    }
+    .owl-nav {
+        display: none;
+    }
+}
+@media (max-width: 1199px) {
+    ul.submenu {
+        position: inherit;
+        opacity: inherit;
+    }
+    ul.submenu li ul.submenu {
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        width: inherit;
+    }
+    .top_search_bar {
+        padding: 20px 0;
+    }
+    li.has_dropdown span {
+        display: none;
+    }
+    .owl_single_items {
+        width: inherit;
+        margin: inherit;
+    }
+}
+@media (max-width: 1099px) {
+    .owl-nav {
+        display: none;
+    }
+}
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero_text h1 {
+        font-size: 60px;
+    }
+    .hero_banner_image {
+        width: 587px;
+        margin-left: -120px;
+    }
+    .request_text h3 {
+        font-size: 50px;
+    }
+    .course_left img {
+        padding-left: 40px;
+        width: 150px;
+    }
+    .course-icon {
+        width: 75px;
+        padding-left: 20px;
+    }
+    .course_text_area {
+        width: 260px;
+        padding-left: 10px;
+    }
+    .course_right h2 {
+        font-size: 27px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_badge img{
+        height: inherit;
+    }
+    .top_contact_info ul li, .login-area ul li {
+        margin-left: 5px;
+    }
+    .top_contact_info ul li a, .login-area ul li a {
+        font-size: 12px;
+    }
+    .site_title p {
+        line-height: 10px;
+    }
+    .hero_text h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .hero_banner_image {
+        width: 483px;
+        margin-left: -124px;
+    }
+    .play-btn {
+        padding-bottom: 68px;
+    }
+    .request_text h3 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .request_contact_form .form-control {
+        height: 40px;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}

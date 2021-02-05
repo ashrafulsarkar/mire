@@ -4,7 +4,7 @@
         // owl carousel review part
         $('.review-carousel').owlCarousel({
             loop:true,
-            margin:0,
+            margin:10,
             nav:true,
             navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
             nav:true,
@@ -13,11 +13,32 @@
                 0:{
                     items:1
                 },
-                600:{
+                768:{
+                    items:2
+                },
+                992:{
                     items:3
                 }
             }
         })
+
+        // hero section magnificPopup 
+        $('.popup-video').magnificPopup({
+            type: 'iframe'
+        });
+
+        // meanmenu
+        $('.main_nav').meanmenu({
+            meanMenuContainer: '.mobile-menu',
+            meanScreenWidth: "1199",
+            meanRevealPosition: "left",
+        });
+        $(".meanmenu-reveal").click(function(){
+            $(".mean-expand").html('<i class="fas fa-sort-down"></i>');
+        });
+        $(".mean-expand").click(function(){
+            $(this).html('<i class="fas fa-sort-down"></i>');
+        });
         
     });
 })(jQuery);

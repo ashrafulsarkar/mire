@@ -335,7 +335,7 @@ nav.main_nav ul li.has_dropdown:hover> a span {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
-ul.sub_menu::after {
+ul.submenu::after {
     position: absolute;
     content: '';
     width: 24px;
@@ -351,18 +351,18 @@ ul.sub_menu::after {
     -o-transform: rotate(45deg);
 }
 /* drop down */
-nav.main_nav ul.sub_menu li {
+nav.main_nav ul.submenu li {
     display: block;
 }
-ul.sub_menu {
+ul.submenu {
     position: absolute;
     top: 100%;
     left: 0;
     width: 226px;
     border-radius: 4px;
     background: #fff;
-    visibility: hidden;
     opacity: 0;
+    visibility: hidden;
     padding: 15px 0;
     z-index: 9;
     transition: all 0.3s;
@@ -371,36 +371,40 @@ ul.sub_menu {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-nav.main_nav ul.sub_menu li a {
+nav.main_nav ul.submenu li a {
     text-transform: uppercase;
     padding: 8px 15px;
 }
-nav.main_nav ul li:hover>ul.sub_menu {
+nav.main_nav ul li:hover>ul.submenu {
     opacity: 1;
     visibility: visible;
 }
-nav.main_nav ul.sub_menu li:hover>a{
+nav.main_nav ul.submenu li:hover>a{
     color: #D4A139;
     background: #fff;
 }
-ul.sub_menu li ul.sub_menu {
+ul.submenu li ul.submenu {
     left: 100%;
     top: -15px;
     margin-left: 15px;
     width: 280px;
 }
-nav.main_nav ul.sub_menu li.has_dropdown:hover> a span {
+nav.main_nav ul.submenu li.has_dropdown:hover> a span {
     transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     -o-transform: rotate(270deg);
 }
-ul.sub_menu li ul.sub_menu::after {
+ul.submenu li ul.submenu::after {
     left: -10px;
     top: 20px;
 }
-
+a.mean-expand.mean-clicked i {
+    transform: rotate(
+180deg
+);
+}
 /* search part */
 .top_search_bar .input_part {
     width: 257px;
@@ -545,6 +549,9 @@ section.course_part {
     line-height: 34px;
     color: #fff;
     padding-top: 65px;
+}
+.course_right {
+    padding-right: 15px;
 }
 .course_right h3 {
     font-size: 20px;
