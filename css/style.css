@@ -236,7 +236,7 @@ input[type="number"]{
     background: #164E7F;
     padding: 15px 0;
 }
-.site_title p {
+.site_title a {
     font-size: 8px;
     line-height: 20px;
     color: #fff;
@@ -244,6 +244,7 @@ input[type="number"]{
     font-weight: 600;
     letter-spacing: 0.4px;
     margin: 0;
+    display: block;
 }
 .header_badge {
     padding-left: 18px;
@@ -432,7 +433,7 @@ a.mean-expand.mean-clicked i {
     position: absolute;
     left: 12px;
     top: 0;
-    line-height: 32px;
+    line-height: 30px;
 }
 .input_part span i{
     font-size: 12px;
@@ -493,15 +494,10 @@ section.hero_section {
     text-transform: uppercase;
     font-weight: 600;
 }
-.play-btn a i {
+.play-btn a img {
     width: 24px;
     height: 24px;
-    background: #164e7f;
-    color: #fff;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 25px;
-    font-size: 8px;
+    margin-right: 5px;
 }
 .hero_banner_image {
     position: relative;
@@ -787,10 +783,10 @@ section.course_part {
     bottom: 0;
 }
 .owl-nav button.owl-prev {
-    left: -70px;
+    left: -90px;
 }
 .owl-nav button.owl-next {
-    right: -70px;
+    right: -90px;
 }
 .owl-dots {
     margin-top: 30px;
@@ -848,6 +844,31 @@ section.contact_area {
     margin-top: 35px;
     margin-left: 80px;
 }
+/* nice selector */
+.nice-select {
+    width: 100%;
+}
+.nice-select ul.list {
+    width: 100%;
+}
+.nice-select:after{
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #164e7f transparent transparent transparent;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+.nice-select.open:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+/* footer area  */
 footer.footer_area {
     background: #164E7F;
 }
@@ -857,6 +878,8 @@ footer.footer_area {
     color: #fff;
     font-family: 'Open Sans',sans-serif;
     font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 .bottom_text p {
     font-size: 14px;

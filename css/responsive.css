@@ -29,7 +29,7 @@
         margin: inherit;
     }
 }
-@media (max-width: 1099px) {
+@media (max-width: 1120px) {
     .owl-nav {
         display: none;
     }
@@ -75,7 +75,7 @@
     .top_contact_info ul li a, .login-area ul li a {
         font-size: 12px;
     }
-    .site_title p {
+    .site_title a {
         line-height: 10px;
     }
     .hero_text h1 {
@@ -104,16 +104,18 @@
     .top_contact_info ul li, .login-area ul li {
         margin-left: 5px;
     }
-    .site_title p {
+    .site_title a {
         line-height: 10px;
     }
     .hero_text h1 {
         font-size: 40px;
         line-height: 45px;
+        text-align: center;
     }
     .play-btn {
         margin-top: 25px;
         padding-bottom: 60px;
+        text-align: center;
     }
     .play-btn a {
         padding: 12px 16px;
@@ -121,6 +123,18 @@
     .content-widget {
         display: inherit !important;
         margin: 5px 0 20px;
+    }
+    .hero_list {
+        width: inherit;
+        text-align: center;
+    }
+    .request_text h3 {
+        text-align: center;
+    }
+    .request_text p {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 24px;
     }
 }
  
@@ -139,11 +153,11 @@
     .site_title {
         text-align: center;
     }
+    .site_title {
+        margin-bottom: 14px;
+    }
     .top_search_bar .input_part {
         width: 175px;
-    }
-    .hero_list {
-        width: inherit;
     }
     .course_fast_part {
         display: inherit;
@@ -163,11 +177,22 @@
     }
     .course_right {
         padding-left: 20px;
+        text-align: center;
     }
     .course_right h2 {
         padding-top: 15px;
+        text-align: center;
+    }
+    .course_right h3 {
+        margin-right: 0;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .course_right p {
+        margin: auto;
     }
     .course_right a {
+        margin-top: 20px;
         margin-bottom: 40px;
     }
     .course_content_area {
@@ -179,6 +204,11 @@
         padding-left: inherit;
         padding-top: inherit;
         height: auto;
+        margin: auto;
+    }
+    .course_text_area {
+        padding-left: inherit;
+        text-align: center;
         margin: auto;
     }
     .course-icon img {
@@ -198,6 +228,11 @@
     .request_text h3 {
         font-size: 42px;
         line-height: 50px;
+    }
+    .request_text p {
+        width: inherit;
+        margin-bottom: 24px;
+        padding: 0 25px;
     }
     
 }

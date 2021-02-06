@@ -6,7 +6,7 @@
             loop:true,
             margin:10,
             nav:true,
-            navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+            navText: ['<i class="fas fa-caret-left"></i>','<i class="fas fa-caret-right"></i>'],
             nav:true,
             responsiveClass:true,
             responsive:{
@@ -39,6 +39,10 @@
         $(".mean-expand").click(function(){
             $(this).html('<i class="fas fa-sort-down"></i>');
         });
+
+        // nice selector
+        $('select').niceSelect();
+        
         
     });
 })(jQuery);
