@@ -33,7 +33,7 @@ font-family: 'Poppins', sans-serif;
 */
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -245,6 +245,14 @@ input[type="number"]{
     letter-spacing: 0.4px;
     margin: 0;
     display: block;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.site_title a:hover {
+    color: #D4A139;
 }
 .header_badge {
     padding-left: 18px;
@@ -492,7 +500,7 @@ section.hero_section {
     font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 .play-btn a img {
     width: 24px;
@@ -565,7 +573,7 @@ section.course_part {
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
     font-size: 16px;
     color: #0C273F;
-    font-weight: 600;
+    font-weight: 700;
     padding: 8px 16px;
     display: inline-block;
     border-radius: 4px;
@@ -623,6 +631,12 @@ section.course_part {
     font-size: 14px;
     line-height: 22px;
     color: #F0E792;
+    font-weight: 700;
+    margin-top: 5px;
+    display: inline-block;
+}
+.course_text_area a img {
+    width: 15px;
 }
 
 /* all course */
@@ -652,7 +666,7 @@ section.course_part {
     display: inline-block;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 600;
+    font-weight: 700;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -814,6 +828,11 @@ section.contact_area {
 }
 .request_contact_form .form-control {
     height: 48px;
+    color: #0C273F;
+}
+.form-control:focus {
+    border-color: #F0E792;
+    box-shadow: 0 0 0 0.1px rgb(240 231 146);
 }
 .security_img {
     width: 104px;
@@ -826,7 +845,7 @@ section.contact_area {
     line-height: 22px;
     color: #0C273F;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700 !important;
 }
 .request_text h3 {
     font-size: 56px;
@@ -855,11 +874,16 @@ section.contact_area {
     border-style: solid;
     border-width: 6px 5px 0 5px;
     border-color: #164e7f transparent transparent transparent;
+    transition: 0s;
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
+    -webkit-transition: 0s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
 }
 .nice-select.open:after {
     transform: rotate(180deg);
