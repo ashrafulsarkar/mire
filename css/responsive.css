@@ -46,21 +46,7 @@
     .request_text h3 {
         font-size: 50px;
     }
-    .course_left img {
-        padding-left: 40px;
-        width: 150px;
-    }
-    .course-icon {
-        width: 75px;
-        padding-left: 20px;
-    }
-    .course_text_area {
-        width: 260px;
-        padding-left: 10px;
-    }
-    .course_right h2 {
-        font-size: 27px;
-    }
+    
 }
 
  
@@ -159,68 +145,7 @@
     .top_search_bar .input_part {
         width: 175px;
     }
-    .course_fast_part {
-        display: inherit;
-    }
-    .course_left {
-        width: inherit;
-        text-align: center;
-    }
-    .course_cetagury {
-        text-align: left;
-    }
-    .course_left img {
-        padding-top: inherit;
-        padding-left: inherit;
-        width: 90px;
-        margin-right: inherit;
-    }
-    .course_right {
-        padding-left: 20px;
-        text-align: center;
-    }
-    .course_right h2 {
-        padding-top: 15px;
-        text-align: center;
-    }
-    .course_right h3 {
-        margin-right: 0;
-        text-align: center;
-        padding: 0 30px;
-    }
-    .course_right p {
-        margin: auto;
-    }
-    .course_right a {
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-    .course_content_area {
-        display: grid;
-    }
-    .course-icon {
-        width: inherit;
-        float: inherit;
-        padding-left: inherit;
-        padding-top: inherit;
-        height: auto;
-        margin: auto;
-    }
-    .course_text_area {
-        padding-left: inherit;
-        text-align: center;
-        margin: auto;
-    }
-    .course-icon img {
-        width: 90px;
-    }
-    .course_text_area h2 {
-        padding-top: 25px;
-    }
-    .course_text_area a {
-        margin-bottom: 40px;
-        display: inherit;
-    }
+    
     .all_review a {
         margin-left: inherit;
         display: inline-block;
