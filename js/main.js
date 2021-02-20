@@ -1,6 +1,13 @@
 ;(function ($) {
     $(document).ready(function(){
 
+        // search option
+        $( ".input_part input" ).focus(function() {
+            $( ".search_sugg" ).removeClass('d-none');
+        });
+        $( ".input_part input" ).blur(function() {
+            $( ".search_sugg" ).addClass('d-none');
+        });
         // owl carousel review part
         $('.review-carousel').owlCarousel({
             loop:true,

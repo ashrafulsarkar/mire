@@ -368,7 +368,7 @@ ul.submenu {
     top: 100%;
     left: 0;
     width: 226px;
-    border-radius: 4px;
+    border-radius: 8px;
     background: #fff;
     opacity: 0;
     visibility: hidden;
@@ -416,52 +416,74 @@ a.mean-expand.mean-clicked i {
 }
 /* search part */
 .top_search_bar .input_part {
-    width: 257px;
+    width: 332px;
     position: relative;
     display: inline-block;
-    float: left;
 }
 .input_part input {
     width: 100%;
-    height: 32px;
-    border: none;
-    padding-left: 30px;
-    font-size: 12px;
-    line-height: 17px;
-    border-radius: 4px 0 0 4px;
-    border: 0.6px solid #164E7F;
+    height: 44px;
+    padding-left: 44px;
+    padding-right: 14px;
+    font-size: 14px;
+    line-height: 44px;
+    box-shadow: 0px 6px 20px rgba(22, 78, 127, 0.2);
+    border-radius: 200px;
+    border: 1px solid #164E7F;
+    font-weight: 600;
+    color: #0C273F;
 }
 .input_part input::placeholder {
-    color: #164E7F;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 42px;
     opacity: 1;
 }
 .input_part span {
     position: absolute;
     left: 12px;
     top: 0;
-    line-height: 30px;
+    line-height: 44px;
 }
-.input_part span i{
-    font-size: 12px;
+.input_part span i {
+    font-size: 16px;
     line-height: 17px;
-    color:  #164E7F;
+    color: #164E7F;
+    margin-left: 6px;
 }
-.top_search_bar button.submit_btn {
-    width: 76px;
-    height: 32px;
-    border: none;
-    background: #164E7F;
-    font-size: 14px;
-    line-height: 19px;
+.search_sugg {
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    left: 0;
+    top: 115%;
+    overflow: hidden;
+}
+.search_sugg ul li a {
+    padding: 8px 8px 8px 24px;
+    display: block;
+    color: #0C273F;
+    line-height: 20px;
     font-weight: 600;
-    color: #fff;
-    border-radius: 0 4px 4px 0;
-    -webkit-border-radius: 0 4px 4px 0;
-    -moz-border-radius: 0 4px 4px 0;
-    -ms-border-radius: 0 4px 4px 0;
-    -o-border-radius: 0 4px 4px 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.search_sugg ul li a:hover {
+    background: #EBEBEB;
+}
+.search_sugg ul li a span {
+    position: inherit;
+    font-weight: 400;
+}
+.search_more a {
+    display: block;
+    padding: 20px 8px 24px 24px;
+    color: #164E7F;
+    text-decoration: underline;
 }
 /* hero section */
 section.hero_section {
@@ -495,7 +517,7 @@ section.hero_section {
     padding: 16px 24px;
     display: inline-block;
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
-    border-radius: 4px;
+    border-radius: 8px;
     color: #0C273F;
     font-size: 14px;
     line-height: 24px;
@@ -603,9 +625,17 @@ section.course_part {
     width: 300px;
     margin: auto;
     box-shadow: 0px 8px 40px rgb(22 78 127 / 8%);
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
     padding: 40px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.single-course-items:hover {
+    background: #164e7f;
 }
 .single-icon {
     width: 48px;
@@ -615,11 +645,20 @@ section.course_part {
     font-size: 18px;
     line-height: 22px;
     margin-top: 28px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.single-course-items:hover h2,
+.single-course-items:hover p{
+    color: #fff;
 }
 .single_btn a {
     padding: 8px 16px;
     border: 1px solid #164E7F;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #164E7F;
     margin-top: 25px;
     display: inline-block;
@@ -631,10 +670,13 @@ section.course_part {
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
-.single_btn a:hover{
-    background: #164E7F;
-    color: #fff;
+.single-course-items:hover .single_btn a{
+    background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
 }
 .site-title h2 {
     padding-bottom: 16px;
@@ -654,13 +696,17 @@ section.course_part {
 }
 
 /* review part */
-.review_part{
-    background: #EFF7FE;
+.review_part {
+    background: #0c273f80;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .all_review {
     font-size: 16px;
     line-height: 24px;
-    color: #164E7F;
+    color: #ffffff;
     font-weight: 600;
 }
 .all_review a {
@@ -697,15 +743,21 @@ section.course_part {
     border: 2px solid #fff;
 }
 .review_carousel_text {
-    background: #164E7F;
+    background: #ffffff;
     box-shadow: 0px 8px 40px rgb(22 78 127 / 8%);
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
     padding: 60px 60px 35px;
     margin-top: -50px;
 }
-.review_star span {
+.review_part .site-title h2{
     color: #fff;
+}
+.review_part .site-title h2::after{
+    background: #b99358;
+}
+.review_star span {
+    color: #0C273F;
     font-size: 14px;
     line-height: 22px;
     font-weight: 600;
@@ -715,25 +767,25 @@ section.course_part {
     color: #d4a139;
 }
 .review_text p {
-    color: #fff;
+    color: #0C273F;
     margin-top: 15px;
 }
 .review_sender h4 {
-    color: #fff;
+    color: #0C273F;
     font-size: 14px;
     line-height: 22px;
     margin: 0;
 }
 .review_sender span {
-    color: #fff;
+    color: #0C273F;
     font-size: 12px;
     line-height: 20px;
 }
 .owl-nav button i {
     width: 48px;
     height: 48px;
-    color: #164E7F;
-    border: 1px solid #164E7F;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     font-size: 20px;
     line-height: 46px;
     border-radius: 50%;
@@ -747,8 +799,8 @@ section.course_part {
     background: none;
 }
 .owl-nav button i:hover {
-    background: #164E7F;
-    color: #fff;
+    background: #ffffff;
+    color: #164E7F;
 }
 .owl-nav button {
     position: absolute;
@@ -766,7 +818,7 @@ section.course_part {
 }
 .owl-theme .owl-dots .owl-dot.active span {
     background: #ffffff;
-    border: 4px solid #164E7F;
+    border: 4px solid #d4a139;
     height: 16px;
     width: 16px;
     margin-bottom: 1px;
