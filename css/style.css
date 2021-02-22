@@ -221,18 +221,6 @@ input[type="number"]{
     color: #ff62a3;
 }
 /*========== header area ===========*/
-.top_bar {
-    background: rgba(250, 0, 0, 0.2);
-    text-align: center;
-}
-.top_bar_text p {
-    font-size: 12px;
-    line-height: 20px;
-    margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    padding: 6px 0;
-}
 .header_middel {
     background: #164E7F;
     padding: 15px 0;
