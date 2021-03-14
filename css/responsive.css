@@ -21,13 +21,34 @@
     .top_search_bar {
         padding: 20px 0;
     }
-    li.has_dropdown span {
-        display: none;
-    }
     .owl_single_items {
         width: inherit;
         margin: inherit;
     }
+    /* mobile menu */
+    .hc-nav-trigger {
+        top: 29px;
+    }
+    .hc-offcanvas-nav .nav-content>.nav-close:first-child a, .hc-offcanvas-nav .nav-title+.nav-close a.has-label, .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav .nav-back a {
+        background: #164e7f;
+        border-top: 1px solid #164e7f;
+        border-bottom: 1px solid #164e7f;
+    }
+    .hc-offcanvas-nav .nav-container, .hc-offcanvas-nav .nav-wrapper, .hc-offcanvas-nav ul {
+        background: #ffffff;
+    }
+    ul.submenu{
+        width: 100%;
+        visibility: inherit;
+        padding: inherit;
+    }
+    li.has_dropdown span.arrow-none {
+        display: none;
+    }
+    .fst-btn {
+        margin-top: 0;
+    }
+    
 }
 @media (max-width: 1120px) {
     .owl-nav {
@@ -48,7 +69,40 @@
     }
     
 }
-
+@media (max-width: 991px) {
+    .fst-part.snd-part{
+        display: inherit;
+    }
+    .snd-part .fst-img{
+        max-width: inherit;
+    }
+    .course_part .fst-img{
+        height: 272px;
+    }
+    .course_part .grid-container {
+        display: flex;
+        overflow-x: auto;
+    }
+    .feature-post {
+        min-width: 300px;
+    }
+    .grid-container::-webkit-scrollbar{
+        display: none;
+    }
+    .fst-text {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    .snd-part .fst-text{
+        padding: 16px 24px 23px 24px;
+    }
+    .snd-part .fst-img .cat {
+        left: 0;
+        right: inherit;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
  
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -87,6 +141,13 @@
  
 /* Extra small Device. */
 @media (max-width: 767px) {
+    /* bootstrap class modifaction */
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    /* bootstrap class modifaction */
+
     .top_contact_info ul li, .login-area ul li {
         margin-left: 5px;
     }
@@ -122,6 +183,23 @@
         text-align: center;
         margin-bottom: 24px;
     }
+    .logo {
+        width: 195px;
+    }
+    .hc-nav-trigger {
+        top: -45px;
+        right: 15px;
+    }
+    .hc-nav-trigger span, .hc-nav-trigger span::before, .hc-nav-trigger span::after {
+        height: 2px;
+        background: #ffffff;
+    }
+    .top_search_bar,.top_search_bar .input_part {
+        width: 100%;
+    }
+    .header_manu {
+        height: 0;
+    }
 }
  
 /* SM Small Device :550px. */
@@ -141,9 +219,6 @@
     }
     .site_title {
         margin-bottom: 14px;
-    }
-    .top_search_bar .input_part {
-        width: 175px;
     }
     
     .all_review a {

@@ -8,7 +8,7 @@
     <link rel="icon" href="img/favicon" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/hc-offcanvas-nav.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -31,7 +31,7 @@
                                 <img src="img/logo/logo.png" alt="">
                             </a>
                         </div>
-                        <div class="site_title">
+                        <div class="site_title d-none d-md-block">
                             <a href="#">STATE OF MICHIGAN (LARA) CERTIFIED PROPRIETARY SCHOOL</a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             <img src="img/badge/badge.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-7">
+                    <div class="col-lg-4 col-md-4 d-none d-md-block">
                         <div class="top_contact_info">
                             <!-- contact information -->
                             <ul>
@@ -50,7 +50,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-2 col-sm-3 col-5">
+                    <div class="col-lg-3 col-md-2 d-none d-md-block">
                         <div class="login-area">
                             <!-- login area -->
                             <ul>
@@ -117,21 +117,22 @@
                     <div class="col-xl-8">
                         <nav class="main_nav">
                             <!-- main menu -->
+                            <ul class="nav-logo d-block d-xl-none">
+                                <li><img src="img/logo/logo-color.png" alt="" srcset=""></li>
+                            </ul>
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <!-- drop down -->
-                                <li class="has_dropdown"><a href="#">Course<span class="fas fa-caret-down"></span></a>
+                                <li class="has_dropdown"><a href="#">Course<span class="fas fa-caret-down arrow-none"></span></a>
                                     <ul class="submenu">
-                                        <li class="has_dropdown"><a href="#">real estate lincense<span
-                                                    class="fas fa-caret-down"></span></a>
+                                        <li class="has_dropdown"><a href="#">real estate lincense<span class="fas fa-caret-down arrow-none"></span></a>
                                             <ul class="submenu">
                                                 <li><a href="#">40 HOURs SALES PERSON CLASS</a></li>
                                                 <li><a href="#">6 HOURs CONTINUING EDUCATION</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">BROKERS LICENSE</a></li>
-                                        <li class="has_dropdown"><a href="#">BUILDERS LINCENSE<span
-                                                    class="fas fa-caret-down"></span></a>
+                                        <li class="has_dropdown"><a href="#">BUILDERS LINCENSE<span class="fas fa-caret-down arrow-none"></span></a>
                                             <ul class="submenu">
                                                 <li><a href="#">40 HOURs SALES PERSON CLASS</a></li>
                                                 <li><a href="#">6 HOURs CONTINUING EDUCATION</a></li>
@@ -150,10 +151,13 @@
                                 <li><a href="#">Contact</a></li>
                                 <li><a href="#">About Us</a></li>
                             </ul>
+                            <ul class="brand d-block d-xl-none">
+                                <li><img src="img/badge/badge.png" alt="" srcset=""></li>
+                            </ul>
                         </nav>
-                        <div class="mobile-menu"></div>
+                        <!-- <div class="mobile-menu"></div> -->
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-12">
                         <div class="top_search_bar f-right">
                             <form action="#" method="GET">
                                 <div class="search_form">
@@ -171,8 +175,7 @@
                                                 <li><a href="#">real estate <span>course broker</span></a></li>
                                             </ul>
                                             <div class="search_more">
-                                                <a href="#">See all search results <i
-                                                        class="fas fa-arrow-right"></i></a>
+                                                <a href="#">See all search results <i class="fas fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -187,7 +190,7 @@
     <!-- hearder end -->
     <!-- hero section start -->
     <section class="hero_section"
-        style="background-image:linear-gradient(99.85deg, rgba(12, 39, 63, 0.85) 0%, rgba(32, 59, 87, 0.85) 44.52%, rgba(47, 77, 109, 0.5) 100%), url(./img/bg/banner.jpg);">
+        style="background-image:linear-gradient(179.97deg, rgba(22, 78, 127, 0.95) 0.03%, rgba(22, 78, 127, 0.85) 54.17%, rgba(22, 78, 127, 0.75) 99.97%), url(./img/bg/banner.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -241,49 +244,50 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="grid-container">
-                        <div class="item1">
+                        <div class="feature-post item1">
                             <div class="fst-part">
-                                <div class="fst-img">
+                                <div class="fst-img" style="background-image: url(img/course/course1.jpg);">
                                     <div class="cat">Hot!</div>
-                                    <img src="img/course/course1.jpg" alt="">
                                 </div>
                                 <div class="fst-text">
-                                    <h3>Become a Real Estate Agent!</h3>
-                                    <h3>40 Hour Real Estate Salesperson Course</h3>
-                                    <p>Available in Class, Online or as Home Study live webiner</p>
+                                    <div>
+                                        <h3>Become a Real Estate Agent!</h3>
+                                        <h3>40 Hour Real Estate Salesperson Course</h3>
+                                        <p>Available in Class, Online or as Home Study live webiner</p>
+                                    </div>
                                     <div class="fst-btn">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item2">
+                        <div class="feature-post item2">
                             <div class="fst-part snd-part">
-                                <div class="fst-img">
+                                <div class="fst-img" style="background-image: url(img/course/course2.jpg);">
                                     <div class="cat">Recommended</div>
-                                    <img src="img/course/course2.jpg" alt="">
                                 </div>
                                 <div class="fst-text">
-                                    <h3>Continuing Education</h3>
-                                    <p>Real Estate, Builders, Mortgage CE. <br> Keep your license active. <br> Learn
-                                        latest industry updates.</p>
-                                    <div class="fst-btn mt-50">
+                                    <div>
+                                        <h3>Continuing Education</h3>
+                                        <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
+                                    </div>
+                                    <div class="fst-btn">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item3">
+                        <div class="feature-post item3">
                             <div class="fst-part snd-part">
-                                <div class="fst-img">
+                                <div class="fst-img" style="background-image: url(img/course/course3.jpg);">
                                     <div class="cat">Sale</div>
-                                    <img src="img/course/course3.jpg" alt="">
                                 </div>
                                 <div class="fst-text">
-                                    <h3>Real Estate License</h3>
-                                    <p>Real Estate, Builders, Mortgage CE. <br> Keep your license active. <br> Learn
-                                        latest industry updates.</p>
-                                    <div class="fst-btn mt-50">
+                                    <div>
+                                        <h3>Real Estate License</h3>
+                                        <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
+                                    </div>
+                                    <div class="fst-btn">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
@@ -296,7 +300,7 @@
     </section>
     <!-- feature course section end -->
     <!-- all course start -->
-    <section class="pt-65 pb-25">
+    <section class="pt-65 pb-45">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -308,7 +312,7 @@
             </div>
             <div class="row">
                 <!-- single course items -->
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/pen.png" alt="">
@@ -323,7 +327,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/house.png" alt="">
@@ -338,7 +342,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/builders.png" alt="">
@@ -353,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/education.png" alt="">
@@ -368,7 +372,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/license.png" alt="">
@@ -383,7 +387,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/appraisal.png" alt="">
@@ -398,7 +402,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/house.png" alt="">
@@ -413,7 +417,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-40">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/tranning.png" alt="">
@@ -428,7 +432,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-40">
+                <div class="col-lg-4 col-md-6 mb-16">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/certificket.png" alt="">
@@ -809,7 +813,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/hc-offcanvas-nav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>

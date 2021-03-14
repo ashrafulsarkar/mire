@@ -234,11 +234,11 @@ input[type="number"]{
     letter-spacing: 0.4px;
     margin: 0;
     display: block;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 .site_title a:hover {
     color: #D4A139;
@@ -364,11 +364,11 @@ nav.main_nav ul li a {
     padding: 27px 12px;
     display: block;
     text-transform: uppercase;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 li.has_dropdown span {
     margin-left: 5px;
@@ -414,11 +414,11 @@ ul.submenu {
     visibility: hidden;
     padding: 15px 0;
     z-index: 9;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 nav.main_nav ul.submenu li a {
     text-transform: uppercase;
@@ -449,11 +449,30 @@ ul.submenu li ul.submenu::after {
     left: -10px;
     top: 20px;
 }
-a.mean-expand.mean-clicked i {
-    transform: rotate(
-180deg
-);
+/* mobile nav */
+.nav-close {
+    display: none;
 }
+.hc-offcanvas-nav .nav-item-link, .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav .nav-back a,
+.hc-offcanvas-nav .nav-wrapper>.nav-content>ul:not(:last-child){
+    border-bottom: none;
+}
+.hc-offcanvas-nav .nav-next span::before, .hc-offcanvas-nav .nav-back span::before{
+    border-top: 2px solid #164e7f;
+    border-left: 2px solid #164e7f;
+}
+.hc-offcanvas-nav .nav-item-link, .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav .nav-back a{
+    color: #164e7f;
+}
+.hc-offcanvas-nav:not(.touch-device) li:not(.nav-item-custom) a:not([disabled]):hover,
+.hc-offcanvas-nav.nav-levels-expand li.level-open, .hc-offcanvas-nav.nav-levels-none li.level-open {
+    background: #ffffff;
+}
+.hc-offcanvas-nav.nav-levels-expand li.level-open>.nav-item-wrapper>a, .hc-offcanvas-nav.nav-levels-none li.level-open>.nav-item-wrapper>a,
+.hc-offcanvas-nav .nav-wrapper>.nav-content>ul:first-of-type>li:first-child:not(.nav-back):not(.nav-close)>.nav-item-wrapper>.nav-item-link{
+    border: none;
+}
+
 /* search part */
 .top_search_bar .input_part {
     width: 332px;
@@ -506,11 +525,11 @@ a.mean-expand.mean-clicked i {
     color: #0C273F;
     line-height: 20px;
     font-weight: 600;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 .search_sugg ul li a:hover {
     background: #EBEBEB;
@@ -588,14 +607,16 @@ section.course_part {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 16px;
+    padding-right: 16px;
 }
 .course_part .item1 {
     grid-row: 1 / span 2;
 }
 .course_part .fst-img {
-    height: 294px;
+    height: 290px;
     overflow: hidden;
     position: relative;
+    background-size: cover;
 }
 .fst-img .cat {
     position: absolute;
@@ -611,6 +632,7 @@ section.course_part {
 }
 .fst-part {
     background: #164E7F;
+    overflow: hidden;
     border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
     -moz-border-radius: 8px 8px 8px 8px;
@@ -645,14 +667,20 @@ section.course_part {
     display: flex;
     flex-direction: row-reverse;
     overflow: hidden;
+    height: 100%;
 }
 .snd-part .fst-img {
-    width: 255px;
+    max-width: 255px;
+    width: 100%;
     height: auto;
 }
 .snd-part .fst-text {
-    width: 305px;
+    max-width: 305px;
+    width: 100%;
     padding: 16px 16px 24px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 .snd-part .fst-img .cat {
     right: 0;
@@ -662,17 +690,17 @@ section.course_part {
 
 /* all course */
 .single-course-items {
-    width: 300px;
+    width: 100%;
     margin: auto;
     box-shadow: 0px 8px 40px rgb(22 78 127 / 8%);
     border-radius: 8px;
     text-align: center;
     padding: 40px;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 .single-course-items:hover {
     background: #164e7f;
@@ -685,11 +713,11 @@ section.course_part {
     font-size: 18px;
     line-height: 22px;
     margin-top: 28px;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 .single-course-items:hover h2,
 .single-course-items:hover p{
@@ -705,11 +733,11 @@ section.course_part {
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -829,11 +857,11 @@ section.course_part {
     font-size: 20px;
     line-height: 46px;
     border-radius: 50%;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;

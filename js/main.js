@@ -49,18 +49,15 @@
             type: 'iframe'
         });
 
-        // meanmenu
-        $('.main_nav').meanmenu({
-            meanMenuContainer: '.mobile-menu',
-            meanScreenWidth: "1199",
-            meanRevealPosition: "left",
+        // as a jQuery plugin
+        $('.main_nav').hcOffcanvasNav({
+            disableAt: 1200,
+            levelOpen:'expand',
+            levelTitles:false,
+            closeActiveLevel:false,
+            closeOnClick:true,
         });
-        $(".meanmenu-reveal").click(function(){
-            $(".mean-expand").html('<i class="fas fa-sort-down"></i>');
-        });
-        $(".mean-expand").click(function(){
-            $(this).html('<i class="fas fa-sort-down"></i>');
-        });
+
 
         // nice selector
         $('select').niceSelect();
