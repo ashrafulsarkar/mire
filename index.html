@@ -61,51 +61,6 @@
                                     <a href="#" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user"></i> Login</a>
                                 </li>
                             </ul>
-                            <!-- Login Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <div class="login_popup text-left">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <label for="exampleInputEmail1">Email</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@mail.com">
-                                                    </div>
-                                                    <div class="form-group pass-box">
-                                                        <label for="exampleInputPassword1">Password</label>
-                                                        <div class="input-group" id="show_hide_password">
-                                                            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
-                                                            <div class="input-group-append">
-                                                              <a href="" class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-check mb-30">
-                                                        <div class="row">
-                                                            <div class="col-6 d-flex">
-                                                                <input type="checkbox" class="form-check-input"
-                                                                id="exampleCheck1">
-                                                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <div class="forget_pass text-right">
-                                                                    <a href="#">Forgot your password?</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="recaptcha mb-15">
-                                                        <img src="img/security/reCAPTCHA.jpg" alt="">
-                                                    </div>
-                                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -247,15 +202,15 @@
                         <div class="feature-post item1">
                             <div class="fst-part">
                                 <div class="fst-img" style="background-image: url(img/course/course1.jpg);">
-                                    <div class="cat">Hot!</div>
+                                    <div class="cat d-none d-md-block">Hot!</div>
                                 </div>
                                 <div class="fst-text">
                                     <div>
                                         <h3>Become a Real Estate Agent!</h3>
                                         <h3>40 Hour Real Estate Salesperson Course</h3>
-                                        <p>Available in Class, Online or as Home Study live webiner</p>
+                                        <p class="d-none d-md-block">Available in Class, Online or as Home Study live webiner</p>
                                     </div>
-                                    <div class="fst-btn">
+                                    <div class="fst-btn d-none d-md-block">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
@@ -264,14 +219,14 @@
                         <div class="feature-post item2">
                             <div class="fst-part snd-part">
                                 <div class="fst-img" style="background-image: url(img/course/course2.jpg);">
-                                    <div class="cat">Recommended</div>
+                                    <div class="cat d-none d-md-block">Recommended</div>
                                 </div>
                                 <div class="fst-text">
                                     <div>
                                         <h3>Continuing Education</h3>
-                                        <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
+                                        <p class="d-none d-md-block">Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
                                     </div>
-                                    <div class="fst-btn">
+                                    <div class="fst-btn d-none d-md-block">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
@@ -280,14 +235,14 @@
                         <div class="feature-post item3">
                             <div class="fst-part snd-part">
                                 <div class="fst-img" style="background-image: url(img/course/course3.jpg);">
-                                    <div class="cat">Sale</div>
+                                    <div class="cat d-none d-md-block">Sale</div>
                                 </div>
                                 <div class="fst-text">
                                     <div>
                                         <h3>Real Estate License</h3>
-                                        <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
+                                        <p class="d-none d-md-block">Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry updates.</p>
                                     </div>
-                                    <div class="fst-btn">
+                                    <div class="fst-btn d-none d-md-block">
                                         <a href="#">See the course</a>
                                     </div>
                                 </div>
@@ -300,7 +255,7 @@
     </section>
     <!-- feature course section end -->
     <!-- all course start -->
-    <section class="pt-65 pb-45">
+    <section class="all-course-section pt-65 pb-45">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -310,9 +265,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row all-course">
                 <!-- single course items -->
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/pen.png" alt="">
@@ -322,12 +277,12 @@
                             <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry
                                 updates.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/house.png" alt="">
@@ -337,12 +292,12 @@
                             <p>Determine property values. Learn State appraisal requirements. Practice ethics &
                                 competency.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/builders.png" alt="">
@@ -352,12 +307,12 @@
                             <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry
                                 updates.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/education.png" alt="">
@@ -367,12 +322,12 @@
                             <p>Determine property values. Learn State appraisal requirements. Practice ethics &
                                 competency.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/license.png" alt="">
@@ -382,12 +337,12 @@
                             <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry
                                 updates.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/appraisal.png" alt="">
@@ -397,12 +352,12 @@
                             <p>Determine property values. Learn State appraisal requirements. Practice ethics &
                                 competency.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/house.png" alt="">
@@ -412,12 +367,12 @@
                             <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry
                                 updates.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-16">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/tranning.png" alt="">
@@ -427,12 +382,12 @@
                             <p>Determine property values. Learn State appraisal requirements. Practice ethics &
                                 competency.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-16">
+                <div class="col-lg-4 col-md-6 mb-16 course-item">
                     <div class="single-course-items">
                         <div class="single-icon">
                             <img src="img/icon/certificket.png" alt="">
@@ -442,7 +397,7 @@
                             <p>Real Estate, Builders, Mortgage CE. Keep your license active. Learn latest industry
                                 updates.</p>
                         </div>
-                        <div class="single_btn">
+                        <div class="single_btn d-none d-md-block">
                             <a href="#">See the course</a>
                         </div>
                     </div>
@@ -751,6 +706,92 @@
         </div>
     </section>
     <!-- contact section end -->
+    <!-- bottom mobile menu start-->
+    <section class="bottom-mobile-menu d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="menu-item">
+                        <a href="index.html">
+                            <img src="img/icon/mobile-home.png" alt="">
+                            <span>Home</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="menu-item">
+                        <a href="contact.html">
+                            <img src="img/icon/contact-mobile.png" alt="">
+                            <span>Contact</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="menu-item">
+                        <a href="#">
+                            <img src="img/icon/chat-mobile.png" alt="">
+                            <span>Chat</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="menu-item">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal">
+                            <img src="img/icon/login-mobile.png" alt="">
+                            <span>Login</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bottom mobile menu end-->
+    <!-- Login Modal start-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login_popup text-left">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@mail.com">
+                            </div>
+                            <div class="form-group pass-box">
+                                <label for="exampleInputPassword1">Password</label>
+                                <div class="input-group" id="show_hide_password">
+                                    <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                                    <div class="input-group-append">
+                                    <a href="" class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check mb-30">
+                                <div class="row">
+                                    <div class="col-6 d-flex">
+                                        <input type="checkbox" class="form-check-input"
+                                        id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="forget_pass text-right">
+                                            <a href="#">Forgot your password?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recaptcha mb-15">
+                                <img src="img/security/reCAPTCHA.jpg" alt="">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Modal start-->
     <!-- footer section start -->
     <footer class="footer_area pt-45">
         <div class="container">
@@ -776,6 +817,7 @@
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Terms and Condition</a></li>
                                     <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Cancellation / Refund Policy</a></li>
                                 </ul>
                             </div>
                         </div>

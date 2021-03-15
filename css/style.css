@@ -348,6 +348,9 @@ li.shopping_cart span {
     font-size: 14px;
     color: #227EB5;
 }
+.login_popup .form-check {
+    padding-left: 1.7rem;
+}
 /* main menu */
 .header_manu {
     background: linear-gradient(90deg, #DABC70 0%, #F2EB95 51.67%, #E6C260 100%);
@@ -971,6 +974,35 @@ section.contact_area {
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
+/*bottom mobile menu*/
+section.bottom-mobile-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+}
+.menu-item img {
+    width: 24px;
+}
+.menu-item {
+    text-align: center;
+}
+.menu-item a {
+    padding: 12px 0;
+    display: block;
+}
+.menu-item a span {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 12px;
+    display: block;
+    color: #164E7F;
+    padding-top: 2px;
+}
+/*bottom mobile menu*/
 /* footer area  */
 footer.footer_area {
     background: #164E7F;

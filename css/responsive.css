@@ -200,6 +200,55 @@
     .header_manu {
         height: 0;
     }
+    .fst-img {
+        width: 272px;
+        height: 174px !important;
+    }
+    .feature-post.item1 {
+        min-width: 272px;
+    }
+    .fst-text h3 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .all-course {
+        flex-wrap: inherit;
+        overflow-x: auto;
+    }
+    .all-course::-webkit-scrollbar{
+        display: none;
+    }
+    .course-item {
+        min-width: 286px;
+    }
+    .all-course-section .site-title {
+        text-align: left !important;
+    }
+    .all-course-section .site-title h2::after{
+        margin: inherit;
+    }
+    .single-course-items {
+        text-align: left;
+        padding: 20px;
+        border: 1px solid #164e7f;
+    }
+    .single-icon {
+        margin: unset;
+    }
+    .all-course .course-item {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .all-course .course-item:last-child {
+        padding-right: 16px;
+    }
+    .all-course .course-item:first-child{
+        padding-left: 16px;
+    }
+    footer.footer_area {
+        overflow: hidden;
+        padding-bottom: 65px;
+    }
 }
  
 /* SM Small Device :550px. */
