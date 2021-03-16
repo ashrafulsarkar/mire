@@ -2,12 +2,33 @@
     $(document).ready(function(){
 
         // search option
-        $( ".input_part input" ).focus(function() {
-            $( ".search_sugg" ).removeClass('d-none');
-        });
-        $( ".input_part input" ).blur(function() {
-            $( ".search_sugg" ).addClass('d-none');
-        });
+        // $( ".has_input_part input" ).focus(function() {
+        //     $( ".has_search_sugg" ).removeClass('d-none');
+        // });
+
+        // $( ".has_input_part input" ).blur(function() {
+        //     $( ".has_search_sugg" ).addClass('d-none');
+        // });
+        if($( window ).width()<768){
+            // $( ".input_part input" ).focus(function() {
+            //     $( ".top_search_bar" ).addClass('fixed_top_search_bar');
+            // });
+            // $( ".input_part input" ).blur(function() {
+            //     $( ".top_search_bar" ).removeClass('fixed_top_search_bar');
+            // }); .mobile_input_part span a
+            // location.replace("https://www.w3schools.com")
+
+            $( ".has_input_part input" ).focus(function() {
+                location.replace("#search");
+                if(window.location.toString().includes("#search")){
+                    $( "#mobile_search" ).removeClass('d-none');
+                }
+            });
+            $( ".mobile_input_part span a" ).click(function() {
+                $( "#mobile_search" ).addClass('d-none');
+            });
+
+        }
 
         //password show hide
         $("#show_hide_password a").on('click', function(event) {

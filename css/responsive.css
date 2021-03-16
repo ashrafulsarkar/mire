@@ -42,9 +42,9 @@
         visibility: inherit;
         padding: inherit;
     }
-    li.has_dropdown span.arrow-none {
+    /* li.has_dropdown span.arrow-none {
         display: none;
-    }
+    } */
     .fst-btn {
         margin-top: 0;
     }
@@ -248,6 +248,12 @@
     footer.footer_area {
         overflow: hidden;
         padding-bottom: 65px;
+    }
+    .search_sugg {
+        height: 100vh;
+        width: 101%;
+        top: 100%;
+        border-radius: 0;
     }
 }
  
