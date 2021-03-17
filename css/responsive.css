@@ -146,6 +146,10 @@
         padding-right: 16px;
         padding-left: 16px;
     }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
     /* bootstrap class modifaction */
 
     .top_contact_info ul li, .login-area ul li {
