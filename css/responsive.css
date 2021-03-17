@@ -230,7 +230,6 @@
     .single-course-items {
         text-align: left;
         padding: 20px;
-        border: 1px solid #164e7f;
     }
     .single-icon {
         margin: unset;
@@ -255,6 +254,17 @@
         top: 100%;
         border-radius: 0;
     }
+    .login-form .form-check {
+        margin-bottom: 25px;
+    }
+    .login_popup .form-check .form-check-label {
+        font-size: 12px;
+    }
+    .login_popup .forget_pass a {
+        font-size: 12px;
+        color: #227EB5;
+        margin-right: -8px;
+    }
 }
  
 /* SM Small Device :550px. */
@@ -275,7 +285,6 @@
     .site_title {
         margin-bottom: 14px;
     }
-    
     .all_review a {
         margin-left: inherit;
         display: inline-block;
@@ -286,8 +295,13 @@
     }
     .request_text p {
         width: inherit;
-        margin-bottom: 24px;
+        margin-bottom: 32px;
         padding: 0 25px;
     }
+    section.contact_area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     
+
 }

@@ -220,6 +220,11 @@ input[type="number"]{
     background: #fff;
     color: #ff62a3;
 }
+/* bootsrtap row */
+.row {
+    margin-right: -8px;
+    margin-left: -8px;
+}
 /*========== header area ===========*/
 .header_middel {
     background: #164E7F;
@@ -303,7 +308,7 @@ li.shopping_cart span {
     overflow: hidden;
 }
 .modal-dialog {
-    max-width: 582px;
+    max-width: 568px;
 }
 .modal-content{
     border-radius: 8px;
@@ -313,7 +318,7 @@ li.shopping_cart span {
     -o-border-radius: 8px;
 }
 .modal-body {
-    padding: 64px;
+    padding: 40px 24px;
 }
 .login_popup label {
     color: #0C273F;
@@ -351,6 +356,27 @@ li.shopping_cart span {
 .login_popup .form-check {
     padding-left: 1.7rem;
 }
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem 0 0 0;
+}
+.modal-header h5 {
+    text-align: center;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: -46px;
+}
+.modal-header {
+    padding-bottom: 0;
+}
+.close{
+    opacity: 1;
+}
 /* main menu */
 .header_manu {
     background: linear-gradient(90deg, #DABC70 0%, #F2EB95 51.67%, #E6C260 100%);
@@ -363,7 +389,7 @@ nav.main_nav ul li a {
     font-size: 14px;
     line-height: 19px;
     color: #0C273F;
-    font-weight: 600;
+    font-weight: 700;
     padding: 27px 12px;
     display: block;
     text-transform: uppercase;
@@ -585,6 +611,7 @@ ul.submenu li ul.submenu::after {
     padding: 20px 8px 24px 24px;
     color: #164E7F;
     text-decoration: underline;
+    font-weight: 600;
 }
 .fixed_top_search_bar {
     position: fixed;
@@ -764,6 +791,7 @@ section.course_part {
     border-radius: 8px;
     text-align: center;
     padding: 40px;
+    border: 1px solid #164e7f;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -976,6 +1004,10 @@ section.contact_area {
 .request_contact_form .form-control {
     height: 48px;
     color: #0C273F;
+    line-height: 36px;
+}
+.request_contact_form .nice-select.form-control {
+    padding-left: .75rem;
 }
 .form-control:focus {
     border-color: #F0E792;
@@ -1154,8 +1186,19 @@ footer.footer_area {
     display: inline-block;
 }
 
-/* bootsrtap row */
-.row {
-    margin-right: -8px;
-    margin-left: -8px;
+/* login form */
+.login-form h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    margin-bottom: 0;
 }
+.login-form .form-check {
+    padding-left: 13px;
+}
+/* login form */
