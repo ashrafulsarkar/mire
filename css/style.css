@@ -382,6 +382,9 @@ li.shopping_cart span {
 .header_manu {
     background: linear-gradient(90deg, #DABC70 0%, #F2EB95 51.67%, #E6C260 100%);
 }
+.other-page-header {
+    height: 73px;
+}
 nav.main_nav ul li {
     display: inline-block;
     position: relative;
@@ -738,10 +741,13 @@ section.course_part {
 .fst-text {
     padding: 16px 24px 23px 24px;
 }
-.fst-text h3 {
+.fst-text h3 a{
     color: #fff;
     font-size: 24px;
     line-height: 30px;
+}
+.fst-text h3 a:hover {
+    color: #fff;
 }
 .fst-text p {
     font-size: 14px;
@@ -806,7 +812,7 @@ section.course_part {
     width: 48px;
     margin: auto;
 }
-.single_text_area h2 {
+.single_text_area h2 a{
     font-size: 18px;
     line-height: 22px;
     margin-top: 28px;
@@ -816,6 +822,7 @@ section.course_part {
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
+.single_text_area h2 a:hover,
 .single-course-items:hover h2,
 .single-course-items:hover p{
     color: #fff;
@@ -1202,4 +1209,161 @@ footer.footer_area {
 .login-form .form-check {
     padding-left: 20px;
 }
-/* login form */
+/* coures delails */
+.course-title h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+.course-video {
+    position: relative;
+    max-width: 560px;
+    max-height: 352px;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.course-play-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 352px;
+    z-index: 2;
+}
+.course-play-btn a img {
+    width: 96px;
+    height: 96px;
+}
+.course-overview {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+    border-bottom: 0.5px solid #164E7F;
+    padding-bottom: 8px;
+}
+.overview-text h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.course-approve-img img {
+    width: 82px;
+}
+.course-approve-img {
+    margin-left: -30px;
+}
+.course-share img {
+    width: 76px;
+}
+.overview-text-details p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0C273F;
+    padding-top: 16px;
+}
+.course-overview-btn a {
+    color: #164E7F;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+    border: 1px solid #164E7F;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    font-weight: 700;
+    min-width: 46%;
+    text-align: center;
+}
+.course-full-part {
+    background: #FAFAFA;
+    padding: 12px 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.course-full-part label{
+    margin-bottom: 0;
+    width: 100%;
+}
+.course-part-single {
+    display: flex;
+}
+.course-icon {
+    width: 14%;
+}
+.course-icon img {
+    width: 48px;
+}
+.course-part-title {
+    width: 70%;
+    display: inline-block;
+}
+.course-text-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+}
+.course-part {
+    padding: 12px 20px;
+}
+.course-part-single {
+    display: flex;
+    background: #fff;
+    border-radius: 7px;
+    padding: 24px;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.course-part-title h3 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.course-part-title ul li {
+    list-style: disc;
+    margin-left: 19px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0C273F;
+}
+
+.course-part-single input[type="radio"] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 6px white, 0 0 0 2px;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    color: #c3cbcd;
+}
+.course-part-single input[type="radio"]:checked {
+    background: #164E7F;
+    box-shadow: inset 0 0 0 6px white, 0 0 0 2px #164E7F;
+}
+.course-continue-btn a {
+    background: #164E7F;
+    display: block;
+    text-align: center;
+    padding: 13px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+}

@@ -10,14 +10,6 @@
         //     $( ".has_search_sugg" ).addClass('d-none');
         // });
         if($( window ).width()<768){
-            // $( ".input_part input" ).focus(function() {
-            //     $( ".top_search_bar" ).addClass('fixed_top_search_bar');
-            // });
-            // $( ".input_part input" ).blur(function() {
-            //     $( ".top_search_bar" ).removeClass('fixed_top_search_bar');
-            // }); .mobile_input_part span a
-            // location.replace("https://www.w3schools.com")
-
             $( ".has_input_part input" ).focus(function() {
                 location.replace("#search");
                 if(window.location.toString().includes("#search")){

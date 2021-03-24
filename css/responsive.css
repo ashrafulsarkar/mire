@@ -201,7 +201,8 @@
     .top_search_bar,.top_search_bar .input_part {
         width: 100%;
     }
-    .header_manu {
+    .header_manu,
+    .other-page-header {
         height: 0;
     }
     .fst-img {
@@ -211,9 +212,10 @@
     .feature-post.item1 {
         min-width: 272px;
     }
-    .fst-text h3 {
+    .fst-text h3 a{
         font-size: 14px;
         line-height: 22px;
+        display: block;
     }
     .all-course {
         flex-wrap: inherit;
