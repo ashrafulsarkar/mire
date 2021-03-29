@@ -1429,3 +1429,17 @@ footer.footer_area {
     font-weight: 700;
     display: inline-block;
 }
+.license-details-massage p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+}
+.license-details-modal .modal-body {
+    padding: 24px;
+}
+.license-details-massage a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #164E7F;
+    display: block;
+}
