@@ -75,6 +75,27 @@
         // nice selector
         $('select').niceSelect();
         
+        //course select
         
+        $( '.course-part label input[type="radio"]' ).click(function() {
+            $('.course-part-single').css("border-color", "#fff");
+            if($(this).prop("checked", true)){
+                $(this).closest('.course-part-single').css("border-color", "#164E7F");
+            }
+        });
+
+        
+        setTimeout(function() {
+            $('#admodal').find('.item').first().addClass('active');
+            $('#admodal').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        }, 1000);
+        $("#buttonSuccess").click(function(e){
+            e.preventDefault();
+            $('#admodal').modal('hide');
+        })
+          
     });
 })(jQuery);
