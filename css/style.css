@@ -1229,16 +1229,12 @@ footer.footer_area {
     position: absolute;
     top: 0;
     left: 0;
-    text-align: center;
     right: 0;
     bottom: 0;
-    margin: auto;
-    line-height: 352px;
-    z-index: 2;
-}
-.course-play-btn a img {
     width: 96px;
     height: 96px;
+    margin: auto;
+    z-index: 2;
 }
 .course-overview {
     display: flex;
