@@ -332,6 +332,9 @@
     .course-title-part .course-title h2{
         text-align: left;
     }
+    .education-course-single .single-icon {
+        margin: auto;
+    }
 }
  
 /* SM Small Device :550px. */

@@ -1513,3 +1513,60 @@ footer.footer_area {
     width: 15%;
     margin-left: 0;
 }
+
+/* education course */
+.education-course-single {
+    padding: 24px;
+    border: 1px solid #164e7f;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.course-single-title h2 {
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.course-single-btn a {
+    color: #164E7F;
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 700;
+    border: 1px solid #164E7F;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.education-course-single:hover {
+    background: #164e7f;
+}
+.education-course-single:hover h2{
+    color:#fff;
+}
+.education-course-single:hover a{
+    color:#0C273F;
+    background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
+}
