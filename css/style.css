@@ -1490,3 +1490,12 @@ footer.footer_area {
 .course-full-part-test {
     margin-top: 32px;
 }
+.course-title h4 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.overview-text-details p a {
+    font-weight: 700;
+    color: #164E7F;
+    text-decoration: underline;
+}

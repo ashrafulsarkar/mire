@@ -326,6 +326,9 @@
     .course-overview-btn {
         padding-bottom: 16px;
     }
+    .course-title h4 {
+        text-align: center;
+    }
 }
  
 /* SM Small Device :550px. */
