@@ -1369,6 +1369,7 @@ footer.footer_area {
     margin-top: 24px;
     border: none;
     width: 100%;
+    font-weight: 700;
 }
 .auto-load-modal .modal-header .close {
     margin: -1rem 0 0 auto;
@@ -1569,4 +1570,11 @@ footer.footer_area {
 .education-course-single:hover a{
     color:#0C273F;
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
+}
+/* rrp certification */
+.course-border-none {
+    border: none;
+}
+.rrp-overview-text p {
+    padding-top: 0;
 }

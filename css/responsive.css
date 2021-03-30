@@ -105,7 +105,15 @@
         right: inherit;
         border-radius: 0px 20px 20px 0px;
     }
-    
+    .rrp-overview-text {
+        margin-top: 24px;
+        padding-top: 16px;
+        border-top: 0.5px solid #164E7F;
+    }
+    .course-title h2 {
+        font-size: 28px;
+        text-align: center;
+    }
 }
  
 /* MD Device :768px. */
@@ -280,10 +288,6 @@
         font-size: 12px;
         color: #227EB5;
         margin-right: -1px;
-    }
-    .course-title h2 {
-        font-size: 28px;
-        text-align: center;
     }
     .course-play-btn {
         width: 55px;
