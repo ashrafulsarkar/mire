@@ -105,6 +105,7 @@
         right: inherit;
         border-radius: 0px 20px 20px 0px;
     }
+    
 }
  
 /* MD Device :768px. */
@@ -361,6 +362,9 @@
     section.contact_area {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .thank-you-massage a {
+        padding: 13px 50px;
     }
     
 
