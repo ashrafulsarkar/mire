@@ -1499,3 +1499,17 @@ footer.footer_area {
     color: #164E7F;
     text-decoration: underline;
 }
+.course-title-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid #164E7F;
+}
+.course-title-part .course-title {
+    width: 85%;
+}
+.course-title-part .course-approve-img {
+    width: 15%;
+    margin-left: 0;
+}

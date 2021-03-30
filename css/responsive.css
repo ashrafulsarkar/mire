@@ -329,6 +329,9 @@
     .course-title h4 {
         text-align: center;
     }
+    .course-title-part .course-title h2{
+        text-align: left;
+    }
 }
  
 /* SM Small Device :550px. */
