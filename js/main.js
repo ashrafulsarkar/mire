@@ -76,7 +76,6 @@
         $('select').niceSelect();
         
         //course select
-        
         $( '.course-part label input[type="radio"]' ).click(function() {
             $('.course-part-single').css("border-color", "#fff");
             if($(this).prop("checked", true)){
@@ -84,7 +83,7 @@
             }
         });
 
-        
+        // after page load modal 
         setTimeout(function() {
             $('#admodal').find('.item').first().addClass('active');
             $('#admodal').modal({
@@ -96,6 +95,26 @@
             e.preventDefault();
             $('#admodal').modal('hide');
         })
+
+        // //course select
+        $('.data-table table tbody td input').each(function(){
+            if($(this).prop("checked")){
+                $(this).attr('checked','checked');
+                $(this).siblings('.select-course').addClass('course-selected');
+                $(this).siblings('.select-course').text('Unselect');
+            }
+        });
+        $( '.data-table table tbody td input[type="checkbox"]' ).click(function() {
+            if($(this).prop("checked")){
+                $(this).attr('checked','checked');
+                $(this).siblings('.select-course').addClass('course-selected');
+                $(this).siblings('.select-course').text('Unselect');
+            }else{
+                $(this).removeAttr('checked');
+                $(this).siblings('.select-course').removeClass('course-selected');
+                $(this).siblings('.select-course').text('Select');
+            }
+        });
           
     });
 })(jQuery);

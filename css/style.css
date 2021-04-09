@@ -758,6 +758,7 @@ section.course_part {
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
     border-radius: 8px;
     padding: 9px 20px;
+    font-weight: 700;
     display: inline-block;
     color: #0C273F;
     -webkit-border-radius: 8px;
@@ -1252,9 +1253,6 @@ footer.footer_area {
 .course-approve-img img {
     width: 82px;
 }
-.course-approve-img {
-    margin-left: -30px;
-}
 .course-share img {
     width: 76px;
 }
@@ -1577,4 +1575,330 @@ footer.footer_area {
 }
 .rrp-overview-text p {
     padding-top: 0;
+}
+
+/* licence classroom */
+.tution-area{
+    max-width: 500px;
+    margin: auto;
+}
+.course-tuition {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tution-title h2 {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 16px 24px;
+    background: #164E7F;
+    color: #fff;
+    margin: 0;
+}
+.tution-part {
+    background: #fafafa;
+    padding: 24px;
+}
+.prebtn {
+    padding-bottom: 8px;
+}
+.prebtn span {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 3px 8px;
+    border: 0.5px solid #164E7F;
+    border-radius: 20px;
+    display: inline-block;
+    color: #222;
+    font-weight: 500;
+}
+.prepaid span {
+    background: #164E7F;
+    color: #fff;
+}
+.prebtn p {
+    display: inline-block;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #222222;
+    font-weight: 500;
+}
+.tution-fee h5 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #222222;
+}
+.tution-fee p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.tution-fee p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    width: 184px;
+    margin-bottom: 0;
+}
+.border-part::after {
+    width: 0.5px;
+    height: 100%;
+    position: absolute;
+    content: '';
+    background: #222222;
+    top: 0;
+    right: 16px;
+}
+.included-tuition h4 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+.tuition-img {
+    height: 155px;
+    background: #EBEBEB;
+    overflow: hidden;
+}
+.included-tuition ul li {
+    font-size: 14px;
+    line-height: 24px;
+    list-style: disc;
+    list-style-position: inside;
+    color: #222;
+}
+
+/* table data section */
+.table-data {
+    padding-bottom: 64px;
+}
+.other-course p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    margin: 0;
+}
+.other-course a {
+    font-weight: 600;
+    color: #164E7F;
+}
+.data-short .nice-select {
+    border: 1px solid #0C273F;
+    color: #0C273F;
+    font-weight: 600;
+}
+.data-short .current{
+    color: #0C273F;
+    font-weight: 600;
+}
+.data-short .nice-select.open .list li {
+    color: #222222;
+    font-weight: 600;
+}
+.data-short {
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+/* data table */
+.data-table {
+    padding-bottom: 24px;
+}
+.data-table table {
+    width: 100%;
+    background: #FAFAFA;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.data-table table tbody td {
+    border-left: 0.5px solid #B0B0B0;
+    text-align: center;
+    padding: 16px;
+    color: #222;
+    font-size: 14px;
+    line-height: 22px;
+    width: 17%;
+}
+.data-table table tbody td:first-child {
+    border-left: none;
+    text-align: left;
+    padding: 16px 24px;
+    width: 33%;
+}
+.data-table table tbody tr {
+    border-top: 0.5px solid #B0B0B0;
+}
+.data-table table tbody tr:first-child {
+    border-top: none;
+}
+.data-table table thead {
+    background: #164E7F;
+}
+.data-table table thead th {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 25px;
+}
+.data-table tfoot {
+    background: #EBEBEB;
+}
+.data-table tfoot td {
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #222;
+}
+.data-table table tbody td p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.data-table table tbody td a {
+    color: #222;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.data-table table tbody td span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.data-table table tbody td input[type=checkbox] {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+}
+.data-table table tbody td label {
+    margin: 0;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 4px 6px;
+    border: 0.5px solid #0C273F;
+    border-radius: 4px;
+    display: inline-block;
+}
+.course-selected {
+    background: #164E7F;
+    color: #fff;
+}
+th.th-map {
+    width: 33%;
+}
+th.th-date,
+th.th-day,
+th.th-time {
+    width: 17%;
+}
+th.th-reg,
+.data-table table tbody td:last-child{
+    width: 16%;
+}
+.data-table table tbody td.off-class {
+    padding: 4px 24px;
+    color: #B43535;
+    background: #FFD7D7;
+    font-weight: 600;
+}
+
+
+.data-table tbody {
+    display:block;
+    max-height:723px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.data-table thead, .data-table tbody tr,
+.data-table tfoot {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+
+/* scroll bar */
+/* Works on Firefox */
+.data-table tbody {
+    scrollbar-width: thin;
+    scrollbar-color: #B0B0B0 #FAFAFA;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.data-table tbody::-webkit-scrollbar {
+    width: 6px;
+}
+.data-table tbody::-webkit-scrollbar-track {
+    background: #FAFAFA;
+}
+.data-table tbody::-webkit-scrollbar-thumb {
+    background-color: #B0B0B0;
+    border-radius: 30px;
+}
+
+td.total-hour {
+    width: 50%;
+}
+td.grand-total {
+    width: 34%;
+    text-align: right;
+}
+td.add-to-btn {
+    width: 16%;
+}
+td.add-to-btn input[type="submit"] {
+    background: #164E7F;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+.patment-method p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0;
+    display: inline-block;
+    float: left;
+}
+.patment-method p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0;
+    display: inline-block;
+    float: left;
+}
+.payment-img {
+    float: left;
+    display: inline-block;
+    margin-left: 8px;
+}
+.payment-img span {
+    display: block;
+    color: #222;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 8px;
+}
+.cancle-policy {
+    text-align: right;
+}
+.cancle-policy a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #164E7F;
+    font-weight: 600;
 }
