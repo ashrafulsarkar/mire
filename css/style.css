@@ -1256,6 +1256,9 @@ footer.footer_area {
 .course-approve-img img {
     width: 82px;
 }
+.course-approve-img {
+    margin-left: -30px;
+}
 .course-share img {
     width: 76px;
 }
@@ -1620,21 +1623,18 @@ footer.footer_area {
 }
 .prebtn p {
     display: inline-block;
-    margin: 0;
+    margin: -1px;
     font-size: 12px;
     line-height: 16px;
     color: #222222;
     font-weight: 500;
 }
-.tution-fee h5 {
+.prebtn h5 {
     font-size: 36px;
     line-height: 40px;
     color: #222222;
-}
-.tution-fee p {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 .tution-fee p {
     font-size: 12px;
@@ -1700,7 +1700,7 @@ footer.footer_area {
 }
 .data-short {
     padding: 16px 0;
-    overflow: hidden;
+    display: grid;
 }
 
 /* data table */
@@ -1763,16 +1763,16 @@ footer.footer_area {
     margin: 0;
     font-size: 14px;
     line-height: 22px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .data-table table tbody td a {
     color: #222;
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 500;
 }
 .data-table table tbody td span {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .data-table table tbody td input[type=checkbox] {
     visibility: hidden;
@@ -1791,6 +1791,7 @@ footer.footer_area {
 .course-selected {
     background: #164E7F;
     color: #fff;
+    border: 0.5px solid #164e7f !important;
 }
 th.th-map {
     width: 33%;
@@ -1830,7 +1831,7 @@ th.th-reg,
 /* Works on Firefox */
 .data-table tbody {
     scrollbar-width: thin;
-    scrollbar-color: #B0B0B0 #FAFAFA;
+    scrollbar-color: #b0b0b080 #FAFAFA;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -1841,7 +1842,7 @@ th.th-reg,
     background: #FAFAFA;
 }
 .data-table tbody::-webkit-scrollbar-thumb {
-    background-color: #B0B0B0;
+    background-color: #b0b0b080;
     border-radius: 30px;
 }
 
@@ -1925,6 +1926,9 @@ td.add-to-btn input[type="submit"] {
     padding-left: 0;
     font-weight: 500;
     border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .faq-accordian .btn-link.focus, .faq-accordian .btn-link:focus{
     text-decoration: none;
@@ -1940,6 +1944,7 @@ td.add-to-btn input[type="submit"] {
 }
 .faq-accordian button span {
     float: right;
+    padding-left: 10px;
 }
 .faq-accordian .card-body {
     padding: 0;

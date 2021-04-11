@@ -70,6 +70,9 @@
     .course-part-title {
         width: 95%;
     }
+    .border-part::after {
+        right: 8px;
+    }
     
 }
 @media (max-width: 991px) {
@@ -114,6 +117,9 @@
         font-size: 28px;
         text-align: center;
     }
+    .cancle-policy {
+        text-align: center;
+    }
 }
  
 /* MD Device :768px. */
@@ -153,6 +159,9 @@
     }
     .course-overview-btn {
         margin-bottom: 16px;
+    }
+    td.add-to-btn {
+        width: 28%;
     }
 }
 
@@ -338,6 +347,116 @@
     }
     .education-course-single .single-icon {
         margin: auto;
+    }
+    .prebtn-part {
+        display: flex;
+        align-items: center;
+    }
+    .prebtn h5 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .prebtn {
+        width: 114px;
+    }
+    .my-font-width{
+        font-weight: 500 !important;
+    }
+    .tution-fee {
+        width: 58%;
+    }
+    .tution-fee p {
+        width: 100%;
+    }
+    .border-part {
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+    }
+    .border-part::after {
+        width: 100%;
+        height: 0.5px;
+        top: inherit;
+        right: 0;
+        bottom: 0;
+    }
+    .data-table .table-data-md {
+        display: inline-block;
+        width: 75% !important;
+        text-align: left !important;
+        padding: 0 !important;
+        border-left: 0 !important;
+        padding-left: 16px !important;
+    }
+    th.th-date,
+    th.th-day,
+    th.th-time {
+        display: none !important;
+    }
+    th.th-map {
+        width: 30%;
+    }
+    th.th-reg{
+        width: 20%;
+    }
+    .data-table table tbody td:last-child {
+        width: 40%;
+    }
+    .data-table table tbody td p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .data-table table tbody td {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .data-table table tbody tr {
+        border-left: 0.5px solid #B0B0B0;
+        border-right: 0.5px solid #B0B0B0;
+    }
+    .data-table table tbody td:first-child {
+        padding-top: 16px !important;
+        width: 100% !important;
+    }
+    .data-table table tbody td:nth-child(4){
+        padding-bottom: 16px !important;
+        margin-top: -16px
+    }
+    .md-data-margin {
+        margin-top: -16px;
+    }
+    .data-table tfoot .table-data-md {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100% !important;
+    }
+    td.add-to-btn {
+        width: 36%;
+        padding: 13px 16px 13px 0 !important;
+        text-align: right;
+    }
+    td.add-to-btn input[type="submit"] {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .data-table tfoot td:first-child {
+        padding-top: 16px !important;
+    }
+    .data-table table tbody td.off-class:first-child{
+        padding-top: 5px !important;
+    }
+    td.off-class {
+        padding: 5px 16px !important;
+    }
+    .patment-method p {
+        display: block;
+        float: inherit;
+        text-align: center;
+    }
+    .payment-img {
+        float: inherit;
+        display: block;
+        margin: 0;
+        text-align: center;
     }
 }
  
