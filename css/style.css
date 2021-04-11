@@ -28,15 +28,18 @@
 
 /**
 font-family: 'Bebas Neue', cursive;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
+
+font-family: 'Inter', sans-serif;
 */
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #444;
@@ -100,7 +103,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #164E7F;
     margin-top: 0;
     font-style: normal;
@@ -234,7 +237,7 @@ input[type="number"]{
     font-size: 8px;
     line-height: 20px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     letter-spacing: 0.4px;
     margin: 0;
@@ -274,7 +277,7 @@ input[type="number"]{
     font-size: 14px;
     line-height: 22px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .login-area {
@@ -1901,4 +1904,48 @@ td.add-to-btn input[type="submit"] {
     line-height: 18px;
     color: #164E7F;
     font-weight: 600;
+}
+
+/* faq accordian */
+.faq-part {
+    padding-bottom: 64px;
+}
+.faq-title h2 {
+    color: #222;
+}
+.faq-accordian .card-header {
+    padding: 0;
+    border: none;
+}
+.faq-accordian button {
+    background: #fff;
+    text-align: left;
+    color: #222;
+    padding: 24px;
+    padding-left: 0;
+    font-weight: 500;
+    border-radius: 0;
+}
+.faq-accordian .btn-link.focus, .faq-accordian .btn-link:focus{
+    text-decoration: none;
+}
+.faq-accordian .card {
+    border: none;
+    border-bottom: 1px solid #B0B0B0 !important;
+    border-radius: 0;
+}
+.faq-accordian button:hover {
+    text-decoration: none;
+    color: #222;
+}
+.faq-accordian button span {
+    float: right;
+}
+.faq-accordian .card-body {
+    padding: 0;
+    padding-bottom: 24px;
+}
+.faq-accordian button span i {
+    color: #222;
+    font-size: 14px;
 }
