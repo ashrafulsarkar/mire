@@ -1684,6 +1684,7 @@ footer.footer_area {
 .other-course a {
     font-weight: 600;
     color: #164E7F;
+    text-transform: uppercase;
 }
 .data-short .nice-select {
     border: 1px solid #0C273F;
@@ -1953,4 +1954,136 @@ td.add-to-btn input[type="submit"] {
 .faq-accordian button span i {
     color: #222;
     font-size: 14px;
+}
+
+.online-tution-area {
+    max-width: 426px;
+    margin: auto;
+}
+.full-course-details-border {
+    border-bottom: 0.5px solid #B0B0B0;
+}
+.package-details {
+    flex-wrap: wrap;
+    padding: 16px 24px;
+}
+.package-img {
+    width: 81px;
+    height: 55px;
+    display: inline-block;
+    border: 0.169118px solid #0C273F;
+    filter: drop-shadow(0px 0.676471px 2.70588px rgba(22, 78, 127, 0.12));
+    border-radius: 4px;
+    overflow: hidden;
+}
+.package-title {
+    padding-left: 24px;
+}
+.package-title h4,
+.package-title h4 span{
+    font-size: 14px;
+    line-height: 18px;
+    color: #222;
+    font-weight: 500;
+    margin: 0;
+}
+.package-title h4 span {
+    display: inline !important;
+}
+.package-title p {
+    color: #B70000;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0;
+}
+.package-title span {
+    font-size: 10px;
+    line-height: 14px;
+    display: block;
+    color: #000;
+}
+.package-icon {
+    text-align: center;
+    font-size: 16px;
+}
+.package-icon i.fa-times {
+    color: #B0B0B0;
+}
+.package-icon i.fa-check {
+    color: #37973B;
+}
+.package-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.package-table table th, 
+.package-table table tbody td {
+    border-left: 0.5px solid #B0B0B0;
+    border-top: 0.5px solid #B0B0B0;
+}
+.package-table table th {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 24px;
+}
+.package-table table th span {
+    display: block;
+    font-size: 32px;
+    line-height: 40px;
+}
+.package-table table th:first-child {
+    border-top-left-radius: 8px;
+    background: #FAFAFA;
+    width: 600px;
+}
+.package-table table th:last-child {
+    background: #164E7F;
+    color: #F0E792;
+    border-top-right-radius: 8px;
+    border-right: 0.5px solid #164E7F;
+    border-left: 0.5px solid #164E7F;
+}
+.package-table table th:last-child span{
+    color: #ffffff;
+}
+.package-table table tbody td:first-child{
+    background: #FAFAFA;
+}
+.package-table table tbody td:last-child {
+    border-right: 0.5px solid #164E7F;
+    border-left: 0.5px solid #164E7F;
+}
+.package-table table tbody tr:last-child td {
+    border-bottom: 0.5px solid #B0B0B0;
+}
+.package-table table tbody tr:last-child td:first-child{
+    border-bottom-left-radius: 8px;
+}
+.package-table table tbody tr:last-child td:last-child {
+    border-bottom-color: #164E7F;
+    border-bottom-right-radius: 8px;
+}
+.package-table tfoot td a.reg_btn {
+    font-size: 14px;
+    line-height: 18px;
+    background: #164e7f;
+    color: #fff;
+    padding: 11px 24px;
+    max-width: 240px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.package-table tfoot td {
+    padding-top: 24px;
+}
+.payment-img .cancle-policy {
+    text-align: left;
 }

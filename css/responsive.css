@@ -42,13 +42,12 @@
         visibility: inherit;
         padding: inherit;
     }
-    /* li.has_dropdown span.arrow-none {
-        display: none;
-    } */
     .fst-btn {
         margin-top: 0;
     }
-    
+    .package-table tfoot td:nth-child(n+2) {
+        padding: 0 5px;
+    }
 }
 @media (max-width: 1120px) {
     .owl-nav {
@@ -120,6 +119,15 @@
     .cancle-policy {
         text-align: center;
     }
+    .full-course-details-border{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .full-course-details-border .course-border-none {
+        border-bottom: 0.5px solid #B0B0B0;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+    }
 }
  
 /* MD Device :768px. */
@@ -162,6 +170,13 @@
     }
     td.add-to-btn {
         width: 28%;
+    }
+    .package-title {
+        padding-left: 16px;
+        width: 292px;
+    }
+    .payment-img {
+        margin-left: inherit;
     }
 }
 
@@ -451,12 +466,67 @@
         display: block;
         float: inherit;
         text-align: center;
+        font-size: 10px;
+        line-height: 14px;
     }
     .payment-img {
         float: inherit;
         display: block;
-        margin: 0;
         text-align: center;
+        width: 206px;
+        margin: auto;
+    }
+    .payment-img span {
+        display: block;
+        color: #222;
+        font-size: 8px;
+        line-height: 12px;
+        margin-top: 0;
+    }
+    .cancle-policy {
+        text-align: center;
+        margin-top: -6px;
+    }
+    .cancle-policy a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .package-title {
+        padding-left: 0;
+    }
+    .package-table table th {
+        font-size: 14px;
+        padding: 16px 12px;
+        max-width: 88px;
+    }
+    .package-table table th span {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .package-details {
+        padding: 16px 12px;
+    }
+    .package-table table th:first-child {
+        width: inherit;
+        min-width: 151px;
+    }
+    .package-title h4{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .package-icon {
+        font-size: 14px;
+    }
+    .package-table tfoot td a.reg_btn {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 8px 16px;
+    }
+    .package-table tfoot td:nth-child(n+2) {
+        padding: 8px 5px;
+    }
+    .online-md-top {
+        padding-top: 32px;
     }
 }
  
