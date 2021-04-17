@@ -1217,6 +1217,14 @@ footer.footer_area {
 .course-title h2 {
     font-size: 32px;
     line-height: 36px;
+    margin: 0;
+}
+.course-title p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #222;
+    margin: 0;
 }
 .course-video {
     position: relative;
@@ -1592,13 +1600,24 @@ footer.footer_area {
     border-radius: 8px;
     overflow: hidden;
 }
+.tution-title {
+    background: #164e7f;
+    padding: 16px 20px;
+}
 .tution-title h2 {
     font-size: 22px;
     line-height: 26px;
-    padding: 16px 24px;
-    background: #164E7F;
     color: #fff;
     margin: 0;
+    font-weight: 600;
+}
+.tution-title h4 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    margin-top: 8px;
+    font-weight: 500;
 }
 .tution-part {
     background: #fafafa;
@@ -1657,6 +1676,7 @@ footer.footer_area {
     line-height: 22px;
     padding-top: 24px;
     padding-bottom: 8px;
+    color: #222;
 }
 .tuition-img {
     height: 155px;
@@ -2086,4 +2106,107 @@ td.add-to-btn input[type="submit"] {
 }
 .payment-img .cancle-policy {
     text-align: left;
+}
+
+/* broker classroom */
+.tution-broker-part,
+.tution-broker-bottom-part {
+    border: 1px solid #B0B0B0;
+    border-radius: 0 0 8px 8px;
+    padding: 32px 24px 24px 24px;
+}
+.tution-broker-part ul {
+    display: flex;
+    justify-content: space-between;
+}
+.tution-broker-part ul li {
+    position: relative;
+    padding-right: 19px;
+}
+.tution-broker-part ul li::after {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 0.5px;
+    background: #B0B0B0;
+    top: 0;
+    right: 0;
+}
+.tution-broker-part ul li:last-child:after {
+    display: none;
+}
+.broker-price {
+    padding: 0;
+}
+.broker-price h5 {
+    margin: 0;
+}
+.broker-price h5 span {
+    line-height: 16px;
+    border: none;
+    padding: 0;
+}
+.tution-broker-part p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-top: 16px;
+    color: #222;
+    font-weight: 500;
+}
+.tution-title p {
+    color: #fff;
+    line-height: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+.tution-title h5 {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 384px;
+    margin: 0;
+    font-weight: 500;
+}
+.tution-broker-bottom-part .included-tuition h4 {
+    padding: 0;
+}
+.tution-broker-bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tution-add-card {
+    text-align: center;
+}
+.tution-add-card h4 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #222;
+    margin-bottom: 8px;
+}
+.tution-add-card a {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 11px 24px;
+    background: #164e7f;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.online-tution-area-broker p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #222;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+}
+.online-tution-area-broker p img{
+    width: 24px;
+    height: 24px;
 }
