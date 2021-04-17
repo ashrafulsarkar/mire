@@ -97,14 +97,14 @@
         })
 
         //course select
-        $('.data-table table tbody td input').each(function(){
+        $('#select-course input[type="checkbox"]').each(function(){
             if($(this).prop("checked")){
                 $(this).attr('checked','checked');
                 $(this).siblings('.select-course').addClass('course-selected');
                 $(this).siblings('.select-course').text('Unselect');
             }
         });
-        $( '.data-table table tbody td input[type="checkbox"]' ).click(function() {
+        $( '#select-course input[type="checkbox"]' ).click(function() {
             if($(this).prop("checked")){
                 $(this).attr('checked','checked');
                 $(this).siblings('.select-course').addClass('course-selected');

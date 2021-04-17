@@ -2210,3 +2210,152 @@ td.add-to-btn input[type="submit"] {
     width: 24px;
     height: 24px;
 }
+
+.content-part {
+    border: 1px solid #B0B0B0;
+    border-radius: 8px 8px 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.price-table {
+    padding: 16px 24px 24px 24px;
+}
+.mandatory {
+    padding: 4px;
+    background: #164E7F;
+    height: 24px;
+}
+.mandatory.no-title {
+    background: transparent;
+}
+.mandatory h3 {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+.price-table h3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #222;
+    font-weight: 600;
+    margin: 0;
+}
+.price-table h4 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #222;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.price-table h5 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #222;
+    font-weight: 600;
+    margin: 0;
+}
+.price-table-list ul {
+    padding-top: 24px;
+}
+.price-title-part {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #B0B0B0;
+}
+.price-table ul li {
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 17px;
+    display: flex;
+    padding: 4px 0;
+}
+.price-table ul li i {
+    color: #164E7F;
+    margin-right: 8px;
+}
+.pricing-table-bottom {
+    padding: 0 24px 24px 24px;
+}
+.course-stu-success {
+    border-top: 0.5px solid #B0B0B0;
+}
+.stu-success {
+    margin-top: 24px;
+    background: #DDFCDF;
+    padding: 14px 16px;
+    border-radius: 8px;
+}
+.stu-success p {
+    color: #287D2B;
+    margin: 0;
+}
+.broker-course-fee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+.broker-course-fee span {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.broker-course-fee input {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.broker-course-fee label {
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 0.5px solid #164e7f;
+    color: #164e7f;
+    margin: 0;
+    margin-left: 12px;
+}
+.broker-course-fee .course-selected{
+    color: #fff;
+}
+.pricing-table-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #EBEBEB;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    border-radius: 0 0 8px 8px;
+    padding: 16px 24px;
+}
+.total-fee-hour {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-table-footer .add-to-btn {
+    text-align: right;
+    width: 20%;
+}
+.pricing-table-footer .add-to-btn input {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px 24px;
+    display: inline-block;
+    background: #164E7F;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.total-hour h4,
+.total-price h4 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #222;
+    margin: 0;
+    font-weight: 600;
+}
