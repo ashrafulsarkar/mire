@@ -2113,11 +2113,12 @@ td.add-to-btn input[type="submit"] {
 .tution-broker-bottom-part {
     border: 1px solid #B0B0B0;
     border-radius: 0 0 8px 8px;
-    padding: 32px 24px 24px 24px;
+    padding: 24px;
 }
 .tution-broker-part ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .tution-broker-part ul li {
     position: relative;
@@ -2126,7 +2127,7 @@ td.add-to-btn input[type="submit"] {
 .tution-broker-part ul li::after {
     position: absolute;
     content: '';
-    height: 40px;
+    height: 100%;
     width: 0.5px;
     background: #B0B0B0;
     top: 0;
@@ -2358,4 +2359,33 @@ td.add-to-btn input[type="submit"] {
     color: #222;
     margin: 0;
     font-weight: 600;
+}
+
+/* broker home */
+.broker-home {
+    max-width: 390px;
+}
+.broker-home .tution-broker-part p {
+    padding-top: 0;
+    line-height: 16px;
+    font-size: 12px;
+}
+.broker-home-tution {
+    max-width: 270px;
+}
+.broker-home-tution .included-tuition ul li {
+    font-size: 12px;
+    line-height: 22px;
+}
+.broker-home-tution .tution-broker-bottom-part{
+    padding: 23px;
+}
+.tuition-broker-img {
+    height: 360px;
+    background: #EBEBEB;
+    overflow: hidden;
+}
+.broker-home-text p {
+    line-height: 16px;
+    color: #222;
 }

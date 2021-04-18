@@ -72,7 +72,21 @@
     .border-part::after {
         right: 8px;
     }
-    
+    .tution-broker-part ul li {
+        padding-left: 19px;
+    }
+    .tution-broker-part ul li:first-child {
+        padding-left: 0px;
+    }
+    .prebtn h5 {
+        line-height: 18px;
+    }
+    .broker-home-table .total-fee-hour {
+        width: 75%;
+    }
+    .broker-home-table .pricing-table-footer .add-to-btn {
+        width: 25%;
+    }
 }
 @media (max-width: 991px) {
     .fst-part.snd-part{
@@ -151,7 +165,13 @@
     .course-title p {
         text-align: center;
     }
-    
+    .broker-home {
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    .broker-home-tution {
+        margin: auto;
+    }
 }
  
 /* MD Device :768px. */
@@ -596,7 +616,7 @@
     }
     .broker-price h5 {
         font-size: 24px;
-        line-height: 28px;
+        line-height: 16px;
     }
     .broker-price {
         width: min-content;
@@ -626,6 +646,15 @@
     .total-hour h4, .total-price h4 {
         font-size: 12px;
         line-height: 16px;
+    }
+    .tuition-broker-img {
+        margin-bottom: 24px;
+    }
+    .broker-home .prebtn.broker-price {
+        width: inherit;
+    }
+    .broker-home .tution-broker-part ul li:last-child {
+        padding-left: 19px;
     }
 }
  
