@@ -656,6 +656,12 @@
     .broker-home .tution-broker-part ul li:last-child {
         padding-left: 19px;
     }
+    .builders-payment .payment-img {
+        margin: auto;
+    }
+    .builders-payment p {
+        padding-top: 16px;
+    }
 }
  
 /* SM Small Device :550px. */
