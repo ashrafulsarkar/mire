@@ -16,6 +16,10 @@
     margin-top: 20px;
 }
 
+.mt-24 {
+    margin-top: 24px;
+}
+
 .mt-25 {
     margin-top: 25px;
 }
@@ -34,6 +38,10 @@
 
 .mt-45 {
     margin-top: 45px;
+}
+
+.mt-48 {
+    margin-top: 48px;
 }
 
 .mt-50 {
@@ -544,6 +552,10 @@
 
 .pb-60 {
     padding-bottom: 60px;
+}
+
+.pb-64 {
+    padding-bottom: 64px;
 }
 
 .pb-65 {

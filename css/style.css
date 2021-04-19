@@ -132,7 +132,7 @@ p {
     font-size: 12px;
     font-weight: normal;
     line-height: 20px;
-    color: #0C273F;
+    color: #222;
     margin-bottom: 15px;
 }
 
@@ -2387,5 +2387,29 @@ td.add-to-btn input[type="submit"] {
 }
 .broker-home-text p {
     line-height: 16px;
+    color: #222;
+}
+
+/* builder classroom */
+.builder-tution h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.builder-tution ul li {
+    font-size: 10px;
+    line-height: 20px;
+}
+.builder-tution-area{
+    max-width: 355px;
+}
+.builder-tution-broker .included-tuition h4,
+.builder-tution-broker .included-tuition p,
+.builder-tution-broker .tution-add-card h4{
+    margin: 0;
+}
+.builder-tution-broker .included-tuition h4 {
+    font-size: 16px;
+}
+.other-course h3 {
     color: #222;
 }
