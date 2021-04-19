@@ -2450,6 +2450,7 @@ td.add-to-btn input[type="submit"] {
     position: relative;
 }
 .package-box {
+    min-width: 150px;
     width: 150px;
     height: 150px;
     background: #C4C4C4;
@@ -2482,4 +2483,37 @@ td.add-to-btn input[type="submit"] {
     display: inherit;
     float: inherit;
     padding-top: 40px;
+}
+/* builders home */
+.builders-package {
+    max-width: 1009px;
+    margin: auto;
+}
+.package-header h3 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+    color: #fff;
+}
+.builders-package-part {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.builders-package-body {
+    padding: 12px 24px;
+    border: 1px solid #B0B0B0;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 24px;
+}
+.builders-package-part h6 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 0;
+    max-width: 305px;
+}
+.builders-package-part .package-box {
+    margin: 0;
+    margin-right: 16px;
 }

@@ -662,6 +662,11 @@
     .builders-payment p {
         padding-top: 16px;
     }
+    .builders-package-part .package-box {
+        min-width: 77px;
+        width: 77px;
+        height: 77px;
+    }
 }
  
 /* SM Small Device :550px. */
