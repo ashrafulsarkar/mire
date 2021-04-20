@@ -670,6 +670,14 @@
         width: 77px;
         height: 77px;
     }
+    .form-select-text .course-redio-btn {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    .join-form .course-part-single p {
+        text-align: left;
+    }
 }
  
 /* SM Small Device :550px. */

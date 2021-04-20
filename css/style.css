@@ -2601,7 +2601,6 @@ td.add-to-btn input[type="submit"] {
 }
 .join-form .course-part-single {
     padding: 16px;
-    min-height: 124px;
     height: 100%;
 }
 .join-form .course-part-single p {
@@ -2639,24 +2638,51 @@ td.add-to-btn input[type="submit"] {
 .join-form .form-group .select-form-data label {
     margin-bottom: 0;
     height: 100%;
+    width: 100%;
 }
 .national-holding .nav-tabs {
     border-bottom: none;
-    z-index: 9999;
-    margin-bottom: 0px;
+    width: 99.5%;
     margin-left: 1px;
+}
+.national-holding .nav-tabs .nav-item{
+    width: 50%;
+    z-index: 999;
+    margin-bottom: -2px;
+}
+.national-holding .nav-tabs .nav-item a {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
+    color: #B0B0B0;
+}
+.col-lg-7.tab-show.tab-pane.active .join-part {
+    border-radius: 0px 8px 8px;
+    -webkit-border-radius: 0px 8px 8px;
+    -moz-border-radius: 0px 8px 8px;
+    -ms-border-radius: 0px 8px 8px;
+    -o-border-radius: 0px 8px 8px;
+}
+.col-lg-5.tab-show.tab-pane.active .join-part {
+    border-radius: 8px 0px 8px 8px;
+    -webkit-border-radius: 8px 0px 8px 8px;
+    -moz-border-radius: 8px 0px 8px 8px;
+    -ms-border-radius: 8px 0px 8px 8px;
+    -o-border-radius: 8px 0px 8px 8px;
 }
 
-.national-holding .nav-tabs .nav-item {
-    background: white;
-    z-index: 999;
-    width: 50%;
-    text-align: center;
+.national-holding .nav-tabs .nav-item.show .nav-link,
+.national-holding .nav-tabs .nav-link.active {
+    color: #164E7F;
+    background-color: #f7f7f7;
+    border-color: #B0B0B0 #B0B0B0 #f7f7f7;
+    font-weight: 600;
 }
 .national-holding .nav-tabs .nav-link {
-    font-size: 16px;
-    line-height: 20px;
-    color: #B0B0B0;
-    padding: 6px 11px;
+    border: 1px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
