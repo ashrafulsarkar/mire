@@ -127,6 +127,12 @@
         }).on('hide.bs.collapse', function(){
         	$(this).prev(".card-header").find(".fas").removeClass("fa-minus").addClass("fa-plus");
         });
+
+        if($( window ).width()<992){
+            $(".tab-show").each(function(){
+                $(this).addClass("tab-pane fade");
+            });
+        }
           
     });
 })(jQuery);

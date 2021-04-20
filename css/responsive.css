@@ -87,6 +87,9 @@
     .broker-home-table .pricing-table-footer .add-to-btn {
         width: 25%;
     }
+    .join-form .course-redio-btn h5 {
+        width: 90px;
+    }
 }
 @media (max-width: 991px) {
     .fst-part.snd-part{
