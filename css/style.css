@@ -311,7 +311,7 @@ li.shopping_cart span {
 }
 /*login modal */
 .recaptcha {
-    width: 297px;
+    max-width: 297px;
     border: 0.5px solid #164E7F;
     overflow: hidden;
 }
@@ -2563,6 +2563,10 @@ td.add-to-btn input[type="submit"] {
     line-height: 22px;
     margin: 8px 0 24px 0;
     max-width: 500px;
+    color: #000;
+}
+.join-text p a {
+    color: #164E7F;
 }
 .join-form .form-group label {
     color: #0C273F;
@@ -2685,4 +2689,70 @@ td.add-to-btn input[type="submit"] {
     border: 1px solid transparent;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+/* contact page */
+.operation-text {
+    text-align: center;
+}
+.operation-text h4 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #222;
+}
+.time-date span {
+    font-size: 14px;
+    line-height: 22px;
+    background: #EBEBEB;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 8px;
+    color: #0C273F;
+    font-weight: 600;
+    margin: 4px;
+}
+.contact-info {
+    margin-top: 8px;
+}
+.contact-info p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    color: #000;
+}
+.operation-text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    color: #000;
+}
+.contact-notice p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #FF0000;
+    margin-top: 4px;
+    max-width: 470px;
+    margin: auto;
+}
+.contact-img {
+    background: #EBEBEB;
+    border-radius: 8px;
+    height: 268px;
+    overflow: hidden;
+    margin-top: 16px;
+}
+.operation-text-part {
+    margin-top: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.operation-text-part p {
+    max-width: 202px;
+    margin: auto;
+}
+.operation-text-part .contact-img {
+    margin: 0;
+    height: 188px;
 }

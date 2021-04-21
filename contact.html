@@ -117,144 +117,118 @@
     </header>
     <!-- hearder end -->
     <!-- national holding start-->
-    <section class="national-holding mb-40">
-        <div class="container">
+    <section class="national-holding mt-40 mb-40">
+        <div class="container">        
             <div class="row">
-                <div class="offset-lg-2 col-lg-8 offset-md-2 col-md-8 mt-40">
-                    <div class="national-head-img">
-                        <img src="img/package/national-holding-logo.png" alt="">
+                <div class="col-lg-6">
+                    <div class="join-part mb-40">
+                        <div class="join-text">
+                            <h3>We'd love to hear from you!</h3>
+                            <p>Please fill out the form below and let us know how we can help. We will respond to your message within 24 hours. If you need immediate assistance, please feel free to <a href="#">call us at 800-861-7325.</a></p>
+                        </div>
+                        <div class="join-form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="number" class="form-control" id="phone" placeholder="+1 124 567 8910">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Address</label>
+                                    <input type="text" class="form-control" id="address" placeholder="Address">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control" id="city" placeholder="City">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected disabled>--Select State--</option>
+                                            <option>Canada</option>
+                                            <option>Bangladesh</option>
+                                            <option>India</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="zipCode">Zip Code</label>
+                                        <input type="number" class="form-control" id="zipCode" placeholder="12345">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <select id="inputpreferred" class="form-control">
+                                            <option selected disabled>Select preferred contact method</option>
+                                            <option>Canada</option>
+                                            <option>Bangladesh</option>
+                                            <option>India</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="recaptcha">
+                                        <img src="img/security/reCAPTCHA.jpg" alt="">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 mt-40">
-                    <ul class="nav nav-tabs d-lg-none" id="myTab" role="tablist">
-                        <li class="nav-item">
-                          <a class="nav-link active" id="join-tab" data-toggle="tab" href="#join" role="tab" aria-controls="join" aria-selected="true">Join</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="member-tab" data-toggle="tab" href="#member" role="tab" aria-controls="member" aria-selected="false">Already
-                            a member?</a>
-                        </li>
-                    </ul>
-                    <div class="row tab-content" id="myTabContent">
-                        <div class="col-lg-7 tab-show show active" id="join" role="tabpanel" aria-labelledby="join-tab">
-                            <div class="join-part">
-                                <div class="join-text">
-                                    <h3 class="d-none d-lg-block">Join National Holding</h3>
-                                    <h5>Not practicing Real Estate? - Don't let your license lapse!</h5>
-                                    <ul>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">Pay $85/per calendar year and your license will stay active</div>
-                                        </li>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">Free Continuing Education Class, Online, or Home Study</div>
-                                        </li>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">70/30 Commission Split on ALL Referrals</div>
-                                        </li>
-                                    </ul>
-                                    <p>Fill out the information below and you will receive a National Holding packet in the mail with more information.</p>
-                                </div>
-                                <div class="join-form">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="name">Full Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Name">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="address">Address line 1</label>
-                                            <input type="text" class="form-control" id="address" placeholder="Address">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="address2">Address line 2</label>
-                                            <input type="text" class="form-control" id="address2" placeholder="Address 2">
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <label for="city">City</label>
-                                                <input type="text" class="form-control" id="city" placeholder="City">
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="inputState">State</label>
-                                                <select id="inputState" class="form-control">
-                                                <option selected disabled>--Select State--</option>
-                                                <option>Canada</option>
-                                                <option>Bangladesh</option>
-                                                <option>India</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="zipCode">Zip Code</label>
-                                                <input type="number" class="form-control" id="zipCode" placeholder="12345">
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-1">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-1">
-                                                                    <h5>New License</h5>
-                                                                </div>
-                                                                <p>If you completed your 40 Hour Salesperson class, but you don't have a real estate broker</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-2">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-2">
-                                                                    <h5>Lapsed License</h5>
-                                                                </div>
-                                                                <p>If the current status of your license is "Not Active"</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-3">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-3">
-                                                                    <h5>Active License</h5>
-                                                                </div>
-                                                                <p>You currently have a broker and you want to transfer your license to National Holding</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <a class="btn btn-border" href="#">Check License Status</a>
-                                        </div>
-                                        <button type="submit" class="btn">Submit</button>
-                                      </form>
-                                </div>
+                <div class="col-lg-6">
+                    <div class="contact-operation">
+                        <div class="operation-text">
+                            <h4>Hours of Operation</h4>
+                            <div class="time-date">
+                                <span>Monday - Friday</span>
+                                <span>9:00 a.m. - 5:00 p.m.</span>
+                                <span>Closed holidays</span>
                             </div>
-                        </div>
-                        <div class="col-lg-5 tab-show" id="member" role="tabpanel" aria-labelledby="member-tab">
-                            <div class="join-part">
-                                <div class="join-text text-center">
-                                    <h3 class="d-none d-lg-block">Already a member?</h3>
-                                    <img src="img/package/national-holding.png" alt="">
+                            <div class="contact-info">
+                                <address>
+                                    <p>Toll Free: (800) 861-7325</p>
+                                    <p>Southfield Headquarters: (248) 559-7555</p>
+                                    <p>Fax: (248) 569-5163</p>
+                                </address>
+                            </div>
+                            <h4>Southfield Main Office</h4>
+                            <p>24655 Southfield Road, Suite 101, Southfield, MI 48075</p>
+                            <div class="contact-notice">
+                                <p>*Notice* Full staff available at Southfield Main Office ONLY. Livonia and Flint will not have staff available.</p>
+                            </div>
+                            <div class="contact-img">
+                                <img src="#" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="operation-text-part pb-24">
+                                        <div class="office-part-text">
+                                            <h4>Livonia Office</h4>
+                                            <p>17177 North Laurel Park Drive Suite 101 (enter on North side) Livonia, MI 48152</p>
+                                        </div>
+                                        <div class="contact-img">
+                                            <img src="#" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="join-btn">
-                                    <a class="btn" href="#">RENEW 2021 NATIONAL HOLDING FEE</a>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="operation-text-part pb-24">
+                                        <div class="office-part-text">
+                                            <h4>Flint Office</h4>
+                                            <p>G-3308 Miller Road Flint, MI 48503</p>
+                                        </div>
+                                        <div class="contact-img">
+                                            <img src="#" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
