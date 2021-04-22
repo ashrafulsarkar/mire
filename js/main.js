@@ -19,7 +19,6 @@
             $( ".mobile_input_part span a" ).click(function() {
                 $( "#mobile_search" ).addClass('d-none');
             });
-
         }
 
         //password show hide
@@ -42,7 +41,6 @@
             margin:10,
             nav:true,
             navText: ['<i class="fas fa-caret-left"></i>','<i class="fas fa-caret-right"></i>'],
-            nav:true,
             responsiveClass:true,
             responsive:{
                 0:{
@@ -55,7 +53,7 @@
                     items:3
                 }
             }
-        })
+        });
 
         // hero section magnificPopup 
         $('.popup-video').magnificPopup({
@@ -128,11 +126,33 @@
         	$(this).prev(".card-header").find(".fas").removeClass("fa-minus").addClass("fa-plus");
         });
 
+        // tab items mobile device
         if($( window ).width()<992){
             $(".tab-show").each(function(){
                 $(this).addClass("tab-pane fade");
             });
         }
-          
+
+        // owl carousel more product 
+        $('.product-carousel').owlCarousel({
+            loop:true,
+            margin:12,
+            navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+            dots:false,
+            nav: true,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                768:{
+                    items:3
+                },
+                992:{
+                    items:4
+                }
+            }
+        });
+     
     });
 })(jQuery);
