@@ -2868,6 +2868,7 @@ section.about {
     line-height: 20px;
     font-weight: 700;
     color: #000;
+    display: block;
 }
 .card-delete-btn{
     display: inline-block;
@@ -2888,7 +2889,7 @@ section.about {
 }
 .nocart-image .card-items-details {
     margin-left: 0;
-    max-width: 90%;
+    max-width: 85%;
 }
 .cart-total {
     border: 0.5px solid #B0B0B0;
@@ -2943,8 +2944,8 @@ section.about {
     font-weight: 600;
 }
 .more-product-img {
-    width: 158px;
-    height: 150px;
+    max-width: 158px;
+    max-height: 150px;
     overflow: hidden;
     background: #EBEBEB;
     border-radius: 8px;

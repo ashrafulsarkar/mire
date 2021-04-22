@@ -53,6 +53,9 @@
     .owl-nav {
         display: none;
     }
+    .more-product .owl-nav {
+        display: block;
+    }
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -756,6 +759,19 @@
     .thank-you-massage a {
         padding: 13px 50px;
     }
-    
-
+    .items-img {
+        width: 83px;
+        height: 72px;
+    }
+    .card-items-details {
+        margin-left: 8px;
+        max-width: 152px;
+    }
+    .card-items-details h5 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .card-items-details p{
+        margin: 8px 0;
+    }
 }
