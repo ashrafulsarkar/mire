@@ -3007,3 +3007,33 @@ section.about {
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
+
+.cardmodal-dialog {
+    max-width: 426px;
+}
+.cardmodal-dialog .modal-body {
+    padding: 24px;
+}
+.card_popup_btn .card-btn {
+    background: #EBEBEB;
+    border-radius: 8px;
+    padding: 11px 0;
+    width: 102px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    color: #B0B0B0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.card_popup_btn .card-btn:hover {
+    color: #B0B0B0;
+}
+.card_popup_btn .btn-ok {
+    background: #FF4747;
+    color: #fff;
+}
+.card_popup_btn .btn-ok:hover {
+    color: #fff;
+}
