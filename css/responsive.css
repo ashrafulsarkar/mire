@@ -235,6 +235,23 @@
         text-align: center;
         margin-top: 24px;
     }
+    .parson-info {
+        margin-bottom: 28px;
+        margin-left: -20px;
+        min-width: 115px;
+    }
+    .parson-left .parson-info {
+        margin-left: 0;
+        text-align: end;
+        margin-right: -20px;
+        z-index: 9;
+    }
+    .parson-info h4 {
+        font-size: 16px;
+    }
+    .parson-info span {
+        font-size: 14px;
+    }
 }
 
  
@@ -677,6 +694,27 @@
     }
     .join-form .course-part-single p {
         text-align: left;
+    }
+    .parson-info {
+        min-width: 100px;
+        margin-left: -48px;
+        margin-bottom: 7px;
+    }
+    .parson-info h4 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .parson-info span {
+        font-size: 10px;
+        line-height: 16px;
+        display: block;
+    }
+    .parson-img {
+        min-width: 127px;
+    }
+    .parson-left .parson-info {
+        margin-right: -48px;
+        z-index: 9;
     }
 }
  

@@ -2756,3 +2756,59 @@ td.add-to-btn input[type="submit"] {
     margin: 0;
     height: 188px;
 }
+
+/* about page */
+section.about {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 61px;
+}
+.parson-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.parson-left {
+    justify-content: flex-end;
+}
+.parson-img {
+    max-width: 300px;
+    display: inline-block;
+}
+.parson-info h4 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+.parson-info span {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.parson-info {
+    margin-bottom: 39px;
+    margin-left: 22px;
+}
+.parson-left .parson-info {
+    margin-left: 0;
+    text-align: end;
+    margin-right: 22px;
+}
+.about-content {
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+.about-text h2 {
+    line-height: 36px;
+    color: #222;
+}
+.about-text p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #0C273F;
+    font-weight: 600;
+}
