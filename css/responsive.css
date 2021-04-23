@@ -178,6 +178,22 @@
     .broker-home-tution {
         margin: auto;
     }
+    .top-checkout .checkout-border {
+        border-bottom: none;
+    }
+    .top-checkout .join-text p {
+        text-align: left;
+    }
+    .top-checkout .mobile-padding {
+        padding-bottom: 0;
+    }
+    .join-text h3 {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    .checkout-padding {
+        padding: 16px;
+    }
 }
  
 /* MD Device :768px. */
@@ -254,6 +270,10 @@
     }
     .parson-info span {
         font-size: 14px;
+    }
+    .national-holding .nav-tabs {
+        width: 100%;
+        margin-left: 0;
     }
 }
 

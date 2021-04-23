@@ -352,11 +352,6 @@ li.shopping_cart span {
 .login_popup .pass-box {
     margin-bottom: 8px;
 }
-.login_popup .form-check .form-check-label {
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 1px;
-}
 .login_popup .forget_pass a {
     font-size: 14px;
     color: #227EB5;
@@ -2582,6 +2577,7 @@ td.add-to-btn input[type="submit"] {
     line-height: 48px;
     height: 48px;
     color: #222;
+    border-radius: 8px;
 }
 .join-form input:focus {
     border-color: #164e7f;
@@ -2591,6 +2587,7 @@ td.add-to-btn input[type="submit"] {
     height: 48px;
     border: 1px solid #164E7F;
     line-height: 34px;
+    border-radius: 8px;
 }
 .join-form .nice-select:after {
     top: 58%;
@@ -2663,14 +2660,16 @@ td.add-to-btn input[type="submit"] {
     align-items: center;
     color: #B0B0B0;
 }
-.col-lg-7.tab-show.tab-pane.active .join-part {
+.tab-left.tab-show.tab-pane.active .join-part,
+.tab-left.tab-show.tab-pane.active .top-checkout  {
     border-radius: 0px 8px 8px;
     -webkit-border-radius: 0px 8px 8px;
     -moz-border-radius: 0px 8px 8px;
     -ms-border-radius: 0px 8px 8px;
     -o-border-radius: 0px 8px 8px;
 }
-.col-lg-5.tab-show.tab-pane.active .join-part {
+.tab-right.tab-show.tab-pane.active .join-part,
+.tab-right.tab-show.tab-pane.active .top-checkout{
     border-radius: 8px 0px 8px 8px;
     -webkit-border-radius: 8px 0px 8px 8px;
     -moz-border-radius: 8px 0px 8px 8px;
@@ -3037,4 +3036,119 @@ section.about {
 }
 .card_popup_btn .btn-ok:hover {
     color: #fff;
+}
+
+/* checkout page */
+.checkout-part {
+    background: #F7F7F7;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+}
+.checkout-padding {
+    padding: 24px;
+}
+.checkout-border {
+    border-bottom: 0.5px solid #B0B0B0;
+}
+.checkout-part .join-text p {
+    margin: 0;
+}
+.checkout-part .input-group-append> a {
+    background: #fff;
+    border: 1px solid #164E7F;
+    border-left: none;
+    border-radius: 8px;
+}
+.checkout-part .input-group input.form-control {
+    border-right: none;
+}
+.certificker-text p {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #222;
+    margin-bottom: 0;
+}
+.certificker-text img {
+    width: 177px;
+}
+.certificker-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-group > span {
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    color: #0C273F;
+}
+.form-group p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+.secure-img {
+    width: 87px;
+    margin-top: 10px;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    border: 1px solid #164E7F;
+}
+.checkbox input:checked ~ .checkmark {
+    background-color: #164e7f;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkbox .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.forget_pass a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #227EB5;
+}
+.checkout-part button.btn {
+    text-transform: none;
 }

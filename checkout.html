@@ -120,58 +120,74 @@
     <section class="national-holding mb-40">
         <div class="container">
             <div class="row">
-                <div class="offset-lg-2 col-lg-8 offset-md-2 col-md-8 mt-40">
-                    <div class="national-head-img">
-                        <img src="img/package/national-holding-logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-12 mt-40">
                     <ul class="nav nav-tabs d-lg-none" id="myTab" role="tablist">
                         <li class="nav-item">
-                          <a class="nav-link active" id="join-tab" data-toggle="tab" href="#join" role="tab" aria-controls="join" aria-selected="true">Join</a>
+                          <a class="nav-link active" id="join-tab" data-toggle="tab" href="#join" role="tab" aria-controls="join" aria-selected="true">Create account</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" id="member-tab" data-toggle="tab" href="#member" role="tab" aria-controls="member" aria-selected="false">Already
-                            a member?</a>
+                          <a class="nav-link" id="member-tab" data-toggle="tab" href="#member" role="tab" aria-controls="member" aria-selected="false">Member login</a>
                         </li>
                     </ul>
                     <div class="row tab-content" id="myTabContent">
-                        <div class="col-lg-7 tab-left tab-show show active" id="join" role="tabpanel" aria-labelledby="join-tab">
-                            <div class="join-part">
-                                <div class="join-text">
-                                    <h3 class="d-none d-lg-block">Join National Holding</h3>
-                                    <h5>Not practicing Real Estate? - Don't let your license lapse!</h5>
-                                    <ul>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">Pay $85/per calendar year and your license will stay active</div>
-                                        </li>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">Free Continuing Education Class, Online, or Home Study</div>
-                                        </li>
-                                        <li>
-                                            <div class="list-icon"><i class="fas fa-check"></i></div>
-                                            <div class="list-items">70/30 Commission Split on ALL Referrals</div>
-                                        </li>
-                                    </ul>
-                                    <p>Fill out the information below and you will receive a National Holding packet in the mail with more information.</p>
-                                </div>
-                                <div class="join-form">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="name">Full Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        <div class="col-lg-6 tab-left tab-show show active" id="join" role="tabpanel" aria-labelledby="join-tab">
+                            <form>
+                                <div class="checkout-part top-checkout mb-15">
+                                    <div class="join-text text-center checkout-padding checkout-border mobile-padding">
+                                        <h3 class="d-none d-lg-block">Create an account</h3>
+                                        <p>Fill out the information below to create a new account.</p>
+                                    </div>
+                                    <div class="join-form checkout-padding">
+                                        <div>
+                                            <div class="form-group mb-0">
+                                                <label>Full Name</label>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="fname" placeholder="First Name">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="mname" placeholder="Middle Name">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-8">
+                                                <label for="phone">Phone</label>
+                                                <input type="number" class="form-control" id="phone" placeholder="+1 124 567 8910">
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label for="inputGender">Gender</label>
+                                                <select id="inputGender"  class="form-control">
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                    <option>Other</option>
+                                                </select>
+                                            </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="address">Address line 1</label>
+                                            <label for="email">Email</label>
+                                            <input type="text" class="form-control" id="email" placeholder="youremail@mail.com">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="cEmail">Confirm Email</label>
+                                            <input type="text" class="form-control" id="cEmail" placeholder="youremail@mail.com">
+                                        </div>
+                                        <div class="form-group pass-box">
+                                            <label for="InputPassword">Password</label>
+                                            <div class="input-group" id="show_hide_password">
+                                                <input class="form-control" id="InputPassword" type="password" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                                                <div class="input-group-append">
+                                                    <a href="" class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address">Address</label>
                                             <input type="text" class="form-control" id="address" placeholder="Address">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="address2">Address line 2</label>
-                                            <input type="text" class="form-control" id="address2" placeholder="Address 2">
                                         </div>
                                         <div class="form-row">
                                             <div class="form-group col-md-4">
@@ -181,10 +197,10 @@
                                             <div class="form-group col-md-4">
                                                 <label for="inputState">State</label>
                                                 <select id="inputState" class="form-control">
-                                                <option selected disabled>--Select State--</option>
-                                                <option>Canada</option>
-                                                <option>Bangladesh</option>
-                                                <option>India</option>
+                                                    <option selected disabled>Select State</option>
+                                                    <option>Canada</option>
+                                                    <option>Bangladesh</option>
+                                                    <option>India</option>
                                                 </select>
                                             </div>
                                             <div class="form-group col-md-4">
@@ -193,68 +209,148 @@
                                             </div>
                                         </div>
                                         <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-1">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-1">
-                                                                    <h5>New License</h5>
-                                                                </div>
-                                                                <p>If you completed your 40 Hour Salesperson class, but you don't have a real estate broker</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-2">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-2">
-                                                                    <h5>Lapsed License</h5>
-                                                                </div>
-                                                                <p>If the current status of your license is "Not Active"</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <div class="course-part select-form-data">
-                                                    <label for="form-select-3">
-                                                        <div class="course-part-single form-select-text" style="border-color: rgb(255, 255, 255);">
-                                                            <div class="course-text-part">
-                                                                <div class="course-redio-btn">
-                                                                    <input type="radio" name="form-selsect" id="form-select-3">
-                                                                    <h5>Active License</h5>
-                                                                </div>
-                                                                <p>You currently have a broker and you want to transfer your license to National Holding</p>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
+                                            <div class="form-group col-md-12">
+                                                <label for="pleaseSelect">How did you hear about us?</label>
+                                                <select id="pleaseSelect" class="form-control">
+                                                    <option selected disabled>Please select</option>
+                                                    <option>Canada</option>
+                                                    <option>Bangladesh</option>
+                                                    <option>India</option>
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <a class="btn btn-border" href="#">Check License Status</a>
-                                        </div>
-                                        <button type="submit" class="btn">Submit</button>
-                                      </form>
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="checkout-part mb-15">
+                                    <div class="join-text text-center checkout-padding checkout-border">
+                                        <h3>Licensed Students Only</h3>
+                                    </div>
+                                    <div class="join-form">
+                                        <div class="checkout-padding checkout-border">
+                                            <div class="form-group">
+                                                <div class="certificker-text">
+                                                    <p>All licensed students must provide us with their respective ID number. This is required to credit your hours. If you don’t know your Real Estate ID number, click here to search online.</p>
+                                                    <img src="img/badge/certificket.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="fname" placeholder="Real Estate ID#">
+                                                <span>if applicable</span>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="fname" placeholder="Builders Licence">
+                                                    <span>if applicable</span>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="mname" placeholder="NMLS#">
+                                                    <span>if applicable</span>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <input type="text" class="form-control" id="lname" placeholder="Appraisal#">
+                                                    <span>if applicable</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkout-padding checkout-border">
+                                            <div class="form-group">
+                                                <label>Date of Birth and Last 4 of SSN are required by State of Michigan</label>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                    <select id="inputDay"  class="form-control">
+                                                        <option selected disabled>Day</option>
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <select id="inputMonth"  class="form-control">
+                                                        <option selected disabled>Month</option>
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <select id="inputMonth"  class="form-control">
+                                                        <option selected disabled>Year</option>
+                                                        <option>2020</option>
+                                                        <option>2021</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkout-padding">
+                                            <div class="form-group">
+                                                <p>The State of Michigan requires only the  last 4 digits of your social security number. You must provide this to the state of  Michigan in order to graduate. If you have any questions, please call our office at 248-559-7555</p>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-9">
+                                                    <label for="ssn">Last 4 Digits SSN</label>
+                                                    <input type="password" class="form-control" id="ssn" placeholder="****">
+                                                </div>
+                                                <div class="form-group col-md-3">
+                                                    <div class="secure-img">
+                                                        <img src="img/badge/secure.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="checkbox-part">
+                                                    <label for="agree" class="checkbox">I agree to terms and conditions
+                                                        <input type="checkbox" class="form-control" id="agree">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn">Create account and Continue Checkoout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="col-lg-5 tab-right tab-show" id="member" role="tabpanel" aria-labelledby="member-tab">
-                            <div class="join-part">
-                                <div class="join-text text-center">
-                                    <h3 class="d-none d-lg-block">Already a member?</h3>
-                                    <img src="img/package/national-holding.png" alt="">
+                        <div class="col-lg-6 tab-right tab-show" id="member" role="tabpanel" aria-labelledby="member-tab">
+                            <div class="checkout-part top-checkout mb-15">
+                                <div class="join-text text-center checkout-padding checkout-border d-none d-lg-block">
+                                    <h3>Member login</h3>
                                 </div>
-                                <div class="join-btn">
-                                    <a class="btn" href="#">RENEW 2021 NATIONAL HOLDING FEE</a>
+                                <div class="join-form">
+                                <div class="checkout-padding">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="loginemail">Email</label>
+                                            <input type="text" class="form-control" id="loginemail" placeholder="youremail@mail.com">
+                                        </div>
+                                        <div class="form-group pass-box">
+                                            <label for="loginpass">Password</label>
+                                            <div class="input-group" id="show_hide_password">
+                                                <input class="form-control" id="loginpass" type="password" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                                                <div class="input-group-append">
+                                                    <a href="" class="input-group-text" id="basic-addon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-30">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label for="loginremember" class="checkbox">Remember me
+                                                        <input type="checkbox" class="form-control" id="loginremember">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="forget_pass text-right">
+                                                        <a href="#">Forgot your password?</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="recaptcha mb-15">
+                                            <img src="img/security/reCAPTCHA.jpg" alt="">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">login</button>
+                                    </form>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -334,11 +430,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-check mb-30">
+                            <div class="form-group mb-30">
                                 <div class="row">
-                                    <div class="col-6 d-flex">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                    <div class="col-6">
+                                        <label for="loginPopup" class="checkbox">Remember me
+                                            <input type="checkbox" class="form-control" id="loginPopup">
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                     <div class="col-6">
                                         <div class="forget_pass text-right">
