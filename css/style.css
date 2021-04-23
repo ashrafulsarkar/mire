@@ -3089,7 +3089,7 @@ section.about {
     margin: 0;
 }
 .secure-img {
-    width: 87px;
+    max-width: 87px;
     margin-top: 10px;
 }
 
