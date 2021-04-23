@@ -1022,11 +1022,11 @@ section.contact_area {
     padding-left: .75rem;
 }
 .form-control:focus {
-    border-color: #F0E792;
-    box-shadow: 0 0 0 0.1px rgb(240 231 146);
+    border-color: #0c273f;
+    box-shadow: 0 0 0 0.1px rgb(22 78 127);
 }
 .security_img {
-    width: 104px;
+    max-width: 104px;
     height: 48px;
 }
 .request_contact_form button {
@@ -3092,7 +3092,7 @@ section.about {
     max-width: 87px;
     margin-top: 10px;
 }
-
+/* checkout page */
 .checkbox {
     display: block;
     position: relative;
@@ -3151,4 +3151,17 @@ section.about {
 }
 .checkout-part button.btn {
     text-transform: none;
+}
+
+/* forget password */
+.forget-passbox {
+    background: #F7F7F7;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+}
+.forget-passbox .join-form h4 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #222;
+    margin: 0;
 }
