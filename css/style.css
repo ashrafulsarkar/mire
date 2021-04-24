@@ -1218,6 +1218,7 @@ footer.footer_area {
     font-size: 32px;
     line-height: 36px;
     margin: 0;
+    color: #222;
 }
 .course-title p {
     font-size: 20px;
@@ -1260,6 +1261,7 @@ footer.footer_area {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 0;
+    color: #222;
 }
 .course-approve-img img {
     width: 82px;
@@ -1506,6 +1508,7 @@ footer.footer_area {
 .course-title h4 {
     font-size: 24px;
     line-height: 28px;
+    color: #222;
 }
 .overview-text-details p a {
     font-weight: 700;
@@ -1518,6 +1521,12 @@ footer.footer_area {
     justify-content: space-between;
     padding-bottom: 8px;
     border-bottom: 0.5px solid #164E7F;
+}
+.course-border-sp {
+    border-bottom: 0.5px solid #164E7F;
+}
+.course-border-sp .course-title-part {
+    border: none;
 }
 .course-title-part .course-title {
     width: 85%;

@@ -57,6 +57,12 @@
         display: block;
     }
 }
+@media (min-width: 992px){
+    .course-border-sp .course-title-part {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
     .hero_text h1 {
