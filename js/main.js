@@ -14,6 +14,7 @@
                 location.replace("#search");
                 if(window.location.toString().includes("#search")){
                     $( "#mobile_search" ).removeClass('d-none');
+                    $( ".mobile_input_part input" ).focus();
                 }
             });
             $( ".mobile_input_part span a" ).click(function() {
