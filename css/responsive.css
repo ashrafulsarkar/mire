@@ -93,6 +93,16 @@
     .join-form .course-redio-btn h5 {
         width: 90px;
     }
+    .price-title label {
+        font-size: 14px;
+    }
+    .price-title span {
+        font-size: 10px;
+    }
+    .tool-btn .btn {
+        font-size: 12px;
+        padding: 10px;
+    }
 }
 @media (max-width: 991px) {
     .fst-part.snd-part{
@@ -793,5 +803,16 @@
     }
     .card-items-details p{
         margin: 8px 0;
+    }
+    .tool-btn a.btn {
+        display: inline-block;
+        width: 48%;
+    }
+    .tool-btn {
+        display: flex;
+        justify-content: space-between;
+    }
+    .tool-btn .btn-border {
+        margin-bottom: 0;
     }
 }

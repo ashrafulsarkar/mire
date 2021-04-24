@@ -3190,3 +3190,178 @@ section.about {
     color: #164E7F;
     font-weight: 500;
 }
+
+/* study tools */
+.study-title h4 {
+    color: #222;
+    margin: 0;
+}
+.study-title h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #E40000;
+    margin: 0;
+}
+.study-title p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0C273F;
+    max-width: 464px;
+    padding: 8px 0;
+    margin: 0;
+}
+.stady-details-list ul li {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    color: #0C273F;
+    font-weight: 600;
+}
+.stady-details-list ul li i{
+    margin-right: 8px;
+    color: #164E7F;
+}
+.purchase-data {
+    margin: 16px 0 8px;
+    padding: 16px;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 8px;
+}
+.purchase-data table {
+    width: 100%;
+}
+.purchase-data table tr td:last-child {
+    text-align: right;
+    font-size: 18px;
+    line-height: 22px;
+}
+.purchase-data table tr td {
+    color: #222;
+    font-weight: 600;
+}
+.purchase-data table tr td.savings {
+    color: #E20001;
+}
+.purchase-data table tr:nth-child(2) td {
+    padding-bottom: 8px;
+}
+.purchase-data table tr:last-child td {
+    border-top: 0.5px solid #164E7F;
+    padding-top: 4px;
+}
+.tool-image {
+    border-radius: 8px;
+    border: 1px solid #0C273F;
+    overflow: hidden;
+}
+.tool-price h5 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 0 22px;
+    margin: 0;
+    color: #0C273F;
+}
+.tool-btn .btn {
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.tool-btn .btn-border {
+    margin-bottom: 8px;
+}
+.price-title label {
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0C273F;
+    font-weight: 700;
+}
+.price-title span {
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    color: #0C273F;
+}
+.price-radio {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+.tool-price-radio {
+    padding: 16px 0 4px;
+}
+.tool-btn-radio .btn-border {
+    margin: 0;
+}
+.tool-btn-radio a.btn {
+    display: inline-block;
+    width: inherit;
+}
+.tool-btn-radio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-radio input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 2px white, 0 0 0 2px;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    color: #c3cbcd;
+    margin-right: 6px;
+}
+.price-radio input[type="radio"]:checked {
+    background: #164E7F;
+    box-shadow: inset 0 0 0 2px white, 0 0 0 2px #164E7F;
+}
+#productDetails .modal-header {
+    padding: 22px;
+}
+.modal-header #productDetailsLabel {
+    margin: 0;
+}
+.product-details-items {
+    display: flex;
+    margin-bottom: 30px;
+}
+.product-details-items .image-part {
+    max-width: 182px;
+    max-height: 171px;
+    overflow: hidden;
+}
+.product-details-items .image-part img {
+    border: 1px solid #0C273F;
+    border-radius: 8px;
+}
+.details-text {
+    max-width: 234px;
+    margin-left: 24px;
+}
+.details-text h5 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #B43535;
+    margin: 0;
+}
+.details-text p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #202020;
+    margin: 0;
+}
+.product-list-items ul li {
+    font-size: 10px;
+    line-height: 16px;
+    color: #202020;
+    font-weight: 500;
+    list-style: disc;
+    list-style-position: inside;
+}
+#productDetails .modal-body {
+    padding: 32px;
+}
