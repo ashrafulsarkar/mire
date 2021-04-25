@@ -563,8 +563,8 @@
         text-align: right;
     }
     td.add-to-btn input[type="submit"] {
-        font-size: 10px;
         line-height: 14px;
+        padding: 14px;
     }
     .data-table tfoot td:first-child {
         padding-top: 16px !important;
@@ -633,7 +633,7 @@
     .package-table tfoot td a.reg_btn {
         font-size: 10px;
         line-height: 14px;
-        padding: 8px 16px;
+        padding: 9px 16px;
     }
     .package-table tfoot td:nth-child(n+2) {
         padding: 8px 5px;
@@ -734,6 +734,10 @@
     }
     .join-form .course-part-single p {
         text-align: left;
+        padding-top: 8px;
+    }
+    .form-select-text input[type="radio"] {
+        margin-right: 10px;
     }
     .parson-info {
         min-width: 100px;
@@ -760,6 +764,37 @@
         font-size: 14px;
         line-height: 22px;
         font-weight: 400;
+    }
+    .other-course h3 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0;
+    }
+    .other-course {
+        margin-bottom: 8px;
+    }
+    .data-table table tbody td span {
+        line-height: 32px;
+    }
+    .package-header h3 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    .builders-package,
+    .price-package {
+        margin-top: 16px;
+    }
+    .certificker-text p {
+        margin-bottom: 16px;
+    }
+    .create-account-btn {
+        line-height: 22px;
+    }
+    .forget_pass a {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
  
@@ -826,5 +861,8 @@
     }
     .tool-btn .btn-border {
         margin-bottom: 0;
+    }
+    .join-btn a {
+        font-size: 13px;
     }
 }

@@ -1206,8 +1206,9 @@ footer.footer_area {
     line-height: 20px;
     color: #000000;
     padding-top: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
     margin-bottom: 0;
+    border-bottom: 0.5px solid #b0b0b0;
 }
 .login-form .form-check {
     padding-left: 20px;
@@ -1513,6 +1514,8 @@ footer.footer_area {
     display: block;
     border-radius: 8px;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
 }
 .course-full-part-test {
     margin-top: 32px;
@@ -1691,7 +1694,7 @@ footer.footer_area {
     height: 100%;
     position: absolute;
     content: '';
-    background: #202020;
+    background: #b0b0b0;
     top: 0;
     right: 16px;
 }
@@ -1721,7 +1724,7 @@ footer.footer_area {
 }
 .other-course p {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 24px;
     color: #202020;
     margin: 0;
 }
@@ -1982,6 +1985,8 @@ td.add-to-btn input[type="submit"]:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    letter-spacing: 0;
+    text-transform: none;
 }
 .faq-accordian .btn-link.focus, .faq-accordian .btn-link:focus{
     text-decoration: none;
@@ -2128,6 +2133,7 @@ td.add-to-btn input[type="submit"]:hover {
     display: block;
     text-align: center;
     margin: auto;
+    text-transform: uppercase;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -2569,6 +2575,7 @@ td.add-to-btn input[type="submit"]:hover {
     color: #000;
     margin-bottom: 0;
     max-width: 305px;
+    font-weight: 500;
 }
 .builders-package-part .package-box {
     margin: 0;
@@ -2623,6 +2630,12 @@ td.add-to-btn input[type="submit"]:hover {
     line-height: 20px;
     font-weight: 500;
     margin-bottom: 6px;
+}
+.join-form .form-group .forget-checkbox {
+    margin-bottom: 0;
+}
+.create-account-btn{
+    text-transform: none;
 }
 .join-form input.form-control {
     border: 1px solid #164E7F;
@@ -3300,7 +3313,7 @@ section.about {
     padding-bottom: 8px;
 }
 .purchase-data table tr:last-child td {
-    border-top: 0.5px solid #164E7F;
+    border-top: 0.5px solid #b0b0b0;
     padding-top: 4px;
 }
 .tool-image {
