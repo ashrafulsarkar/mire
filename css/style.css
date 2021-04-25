@@ -1226,6 +1226,7 @@ footer.footer_area {
     font-weight: 500;
     color: #222;
     margin: 0;
+    margin-top: 10px;
 }
 .course-video {
     position: relative;
@@ -1683,7 +1684,6 @@ footer.footer_area {
 .included-tuition h4 {
     font-size: 18px;
     line-height: 22px;
-    padding-top: 24px;
     padding-bottom: 8px;
     color: #222;
 }
@@ -2792,9 +2792,9 @@ section.about {
 }
 .parson-info span {
     color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
 }
 .parson-info {
     margin-bottom: 39px;
