@@ -611,7 +611,7 @@ ul.submenu li ul.submenu::after {
 }
 .search_sugg ul li a span {
     position: inherit;
-    font-weight: 400;
+    color: #727272;
 }
 .search_more a {
     display: block;
@@ -754,7 +754,7 @@ section.course_part {
 }
 .fst-text p {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 22px;
     color: #fff;
 }
 .fst-btn a {
