@@ -1934,7 +1934,7 @@ td.add-to-btn input[type="submit"] {
     font-size: 14px;
     line-height: 18px;
     color: #164E7F;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* faq accordian */
@@ -2216,11 +2216,11 @@ td.add-to-btn input[type="submit"] {
     margin: 0;
     margin-top: 8px;
 }
-.online-tution-area-broker p img{
+.online-tution-area-broker p img {
     width: 24px;
     height: 24px;
+    margin-right: 8px;
 }
-
 .content-part {
     border: 1px solid #B0B0B0;
     border-radius: 8px 8px 0 0;
@@ -2360,6 +2360,7 @@ td.add-to-btn input[type="submit"] {
     color: #fff;
     border-radius: 8px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .total-hour h4,
 .total-price h4 {
