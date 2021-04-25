@@ -2232,6 +2232,14 @@ td.add-to-btn input[type="submit"]:hover {
     letter-spacing: 0.6px;
     border-radius: 8px;
     display: inline-block;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.tution-add-card a:hover {
+    color: #dabc70;
 }
 .online-tution-area-broker p {
     font-size: 14px;
@@ -2329,6 +2337,7 @@ td.add-to-btn input[type="submit"]:hover {
 .stu-success p {
     color: #287D2B;
     margin: 0;
+    font-weight: 500;
 }
 .broker-course-fee {
     display: flex;
@@ -2387,6 +2396,14 @@ td.add-to-btn input[type="submit"]:hover {
     border-radius: 8px;
     text-transform: uppercase;
     font-weight: 700;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.pricing-table-footer .add-to-btn input:hover {
+    color: #dabc70;
 }
 .total-hour h4,
 .total-price h4 {
