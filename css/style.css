@@ -3293,11 +3293,14 @@ section.about {
 }
 .tool-btn .btn {
     padding: 10px 15px;
-    text-transform: capitalize;
+    text-transform: inherit;
     letter-spacing: 0;
 }
 .tool-btn .btn-border {
     margin-bottom: 8px;
+}
+.tool-btn .btn-border:hover {
+    color: #D4A139;
 }
 .price-title label {
     display: block;
