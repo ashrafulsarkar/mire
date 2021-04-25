@@ -710,7 +710,7 @@
         margin-bottom: 24px;
     }
     .broker-home .prebtn.broker-price {
-        width: inherit;
+        width: 130px;
     }
     .broker-home .tution-broker-part ul li:last-child {
         padding-left: 19px;
@@ -754,6 +754,11 @@
     .parson-left .parson-info {
         margin-right: -48px;
         z-index: 9;
+    }
+    .about-text p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
     }
 }
  
