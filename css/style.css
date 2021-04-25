@@ -131,7 +131,7 @@ p {
     font-size: 12px;
     font-weight: normal;
     line-height: 20px;
-    color: #222;
+    color: #202020;
     margin-bottom: 15px;
 }
 
@@ -1218,13 +1218,13 @@ footer.footer_area {
     font-size: 32px;
     line-height: 36px;
     margin: 0;
-    color: #222;
+    color: #202020;
 }
 .course-title p {
     font-size: 20px;
     line-height: 26px;
     font-weight: 500;
-    color: #222;
+    color: #202020;
     margin: 0;
     margin-top: 8px;
 }
@@ -1262,7 +1262,7 @@ footer.footer_area {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 0;
-    color: #222;
+    color: #202020;
 }
 .course-approve-img img {
     width: 82px;
@@ -1509,7 +1509,7 @@ footer.footer_area {
 .course-title h4 {
     font-size: 24px;
     line-height: 28px;
-    color: #222;
+    color: #202020;
 }
 .overview-text-details p a {
     font-weight: 700;
@@ -1643,7 +1643,7 @@ footer.footer_area {
     border: 0.5px solid #164E7F;
     border-radius: 20px;
     display: inline-block;
-    color: #222;
+    color: #202020;
     font-weight: 500;
 }
 .prepaid span {
@@ -1655,13 +1655,13 @@ footer.footer_area {
     margin: -1px;
     font-size: 12px;
     line-height: 16px;
-    color: #222222;
+    color: #202020222;
     font-weight: 500;
 }
 .prebtn h5 {
     font-size: 36px;
     line-height: 40px;
-    color: #222222;
+    color: #202020222;
     margin-top: 5px;
     margin-bottom: 0;
 }
@@ -1677,7 +1677,7 @@ footer.footer_area {
     height: 100%;
     position: absolute;
     content: '';
-    background: #222222;
+    background: #202020222;
     top: 0;
     right: 16px;
 }
@@ -1685,7 +1685,7 @@ footer.footer_area {
     font-size: 18px;
     line-height: 22px;
     padding-bottom: 8px;
-    color: #222;
+    color: #202020;
 }
 .tuition-img {
     height: 155px;
@@ -1697,7 +1697,7 @@ footer.footer_area {
     line-height: 24px;
     list-style: disc;
     list-style-position: inside;
-    color: #222;
+    color: #202020;
 }
 
 /* table data section */
@@ -1707,7 +1707,7 @@ footer.footer_area {
 .other-course p {
     font-size: 16px;
     line-height: 18px;
-    color: #222222;
+    color: #202020222;
     margin: 0;
 }
 .other-course a {
@@ -1725,7 +1725,7 @@ footer.footer_area {
     font-weight: 600;
 }
 .data-short .nice-select.open .list li {
-    color: #222222;
+    color: #202020222;
     font-weight: 600;
 }
 .data-short {
@@ -1751,7 +1751,7 @@ footer.footer_area {
     border-left: 0.5px solid #B0B0B0;
     text-align: center;
     padding: 16px;
-    color: #222;
+    color: #202020;
     font-size: 14px;
     line-height: 22px;
     width: 17%;
@@ -1787,7 +1787,7 @@ footer.footer_area {
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
-    color: #222;
+    color: #202020;
 }
 .data-table table tbody td p {
     margin: 0;
@@ -1796,7 +1796,7 @@ footer.footer_area {
     font-weight: 500;
 }
 .data-table table tbody td a {
-    color: #222;
+    color: #164e7f;
     text-decoration: underline;
     font-weight: 500;
 }
@@ -1901,7 +1901,7 @@ td.add-to-btn input[type="submit"] {
     font-size: 16px;
     line-height: 22px;
     font-weight: 600;
-    color: #222;
+    color: #202020;
     margin-bottom: 0;
     display: inline-block;
     float: left;
@@ -1910,7 +1910,7 @@ td.add-to-btn input[type="submit"] {
     font-size: 16px;
     line-height: 22px;
     font-weight: 600;
-    color: #222;
+    color: #202020;
     margin-bottom: 0;
     display: inline-block;
     float: left;
@@ -1922,7 +1922,7 @@ td.add-to-btn input[type="submit"] {
 }
 .payment-img span {
     display: block;
-    color: #222;
+    color: #202020;
     font-size: 12px;
     line-height: 12px;
     margin-top: 8px;
@@ -1942,7 +1942,7 @@ td.add-to-btn input[type="submit"] {
     padding-bottom: 64px;
 }
 .faq-title h2 {
-    color: #222;
+    color: #202020;
 }
 .faq-accordian .card-header {
     padding: 0;
@@ -1951,7 +1951,7 @@ td.add-to-btn input[type="submit"] {
 .faq-accordian button {
     background: #fff;
     text-align: left;
-    color: #222;
+    color: #202020;
     padding: 24px;
     padding-left: 0;
     font-weight: 500;
@@ -1970,7 +1970,7 @@ td.add-to-btn input[type="submit"] {
 }
 .faq-accordian button:hover {
     text-decoration: none;
-    color: #222;
+    color: #202020;
 }
 .faq-accordian button span {
     float: right;
@@ -1981,7 +1981,7 @@ td.add-to-btn input[type="submit"] {
     padding-bottom: 24px;
 }
 .faq-accordian button span i {
-    color: #222;
+    color: #202020;
     font-size: 14px;
 }
 
@@ -2012,7 +2012,7 @@ td.add-to-btn input[type="submit"] {
 .package-title h4 span{
     font-size: 14px;
     line-height: 18px;
-    color: #222;
+    color: #202020;
     font-weight: 500;
     margin: 0;
 }
@@ -2161,7 +2161,7 @@ td.add-to-btn input[type="submit"] {
     line-height: 18px;
     margin: 0;
     padding-top: 16px;
-    color: #222;
+    color: #202020;
     font-weight: 500;
 }
 .tution-title p {
@@ -2192,7 +2192,7 @@ td.add-to-btn input[type="submit"] {
 .tution-add-card h4 {
     font-size: 36px;
     line-height: 40px;
-    color: #222;
+    color: #202020;
     margin-bottom: 8px;
 }
 .tution-add-card a {
@@ -2210,7 +2210,7 @@ td.add-to-btn input[type="submit"] {
 .online-tution-area-broker p {
     font-size: 14px;
     line-height: 18px;
-    color: #222;
+    color: #202020;
     font-weight: 500;
     text-align: center;
     margin: 0;
@@ -2252,21 +2252,21 @@ td.add-to-btn input[type="submit"] {
 .price-table h3 {
     font-size: 16px;
     line-height: 20px;
-    color: #222;
+    color: #202020;
     font-weight: 600;
     margin: 0;
 }
 .price-table h4 {
     font-size: 12px;
     line-height: 16px;
-    color: #222;
+    color: #202020;
     font-weight: 500;
     margin-top: 8px;
 }
 .price-table h5 {
     font-size: 12px;
     line-height: 16px;
-    color: #222;
+    color: #202020;
     font-weight: 600;
     margin: 0;
 }
@@ -2366,7 +2366,7 @@ td.add-to-btn input[type="submit"] {
 .total-price h4 {
     font-size: 18px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
     margin: 0;
     font-weight: 600;
 }
@@ -2397,7 +2397,7 @@ td.add-to-btn input[type="submit"] {
 }
 .broker-home-text p {
     line-height: 16px;
-    color: #222;
+    color: #202020;
 }
 
 /* builder classroom */
@@ -2421,7 +2421,7 @@ td.add-to-btn input[type="submit"] {
     font-size: 16px;
 }
 .other-course h3 {
-    color: #222;
+    color: #202020;
 }
 
 /* builder online */
@@ -2541,13 +2541,13 @@ td.add-to-btn input[type="submit"] {
 }
 .join-text h3 {
     line-height: 32px;
-    color: #222;
+    color: #202020;
     margin: 0;
 }
 .join-text h5 {
     font-size: 16px;
     line-height: 24px;
-    color: #222;
+    color: #202020;
     margin: 8px 0;
 }
 .join-text ul li {
@@ -2557,7 +2557,7 @@ td.add-to-btn input[type="submit"] {
     display: flex;
     font-size: 14px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
 }
 .join-text ul li .list-icon i {
     color: #164E7F;
@@ -2586,7 +2586,7 @@ td.add-to-btn input[type="submit"] {
     font-size: 14px;
     line-height: 48px;
     height: 48px;
-    color: #222;
+    color: #202020;
     border-radius: 8px;
 }
 .join-form input:focus {
@@ -2624,7 +2624,7 @@ td.add-to-btn input[type="submit"] {
     display: inline-block;
     font-size: 18px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
 }
 .form-select-text .course-redio-btn {
     display: flex;
@@ -2707,7 +2707,7 @@ td.add-to-btn input[type="submit"] {
 .operation-text h4 {
     font-size: 18px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
 }
 .time-date span {
     font-size: 14px;
@@ -2812,7 +2812,7 @@ section.about {
 }
 .about-text h2 {
     line-height: 36px;
-    color: #222;
+    color: #202020;
 }
 .about-text p {
     font-size: 16px;
@@ -2859,7 +2859,7 @@ section.about {
 .card-items-details h5 {
     font-size: 14px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
     margin: 0;
 }
 .card-items-details p {
@@ -3076,7 +3076,7 @@ section.about {
     max-width: 300px;
     font-size: 14px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
     margin-bottom: 0;
 }
 .certificker-text img {
@@ -3172,7 +3172,7 @@ section.about {
 .forget-passbox .join-form h4 {
     font-size: 18px;
     line-height: 22px;
-    color: #222;
+    color: #202020;
     margin: 0;
 }
 /* search page */
@@ -3181,7 +3181,7 @@ section.about {
     margin-bottom: 8px;
 }
 .search-title h2 {
-    color: #222;
+    color: #202020;
     font-size: 32px;
     line-height: 36px;
     margin: 0;
@@ -3203,7 +3203,7 @@ section.about {
 
 /* study tools */
 .study-title h4 {
-    color: #222;
+    color: #202020;
     margin: 0;
 }
 .study-title h5 {
@@ -3246,7 +3246,7 @@ section.about {
     line-height: 22px;
 }
 .purchase-data table tr td {
-    color: #222;
+    color: #202020;
     font-weight: 600;
 }
 .purchase-data table tr td.savings {
