@@ -16,7 +16,7 @@ https://ashrafulsarkar.github.io/mire
 11. https://ashrafulsarkar.github.io/mire/civil-course.html
 12. https://ashrafulsarkar.github.io/mire/contact.html
 13. https://ashrafulsarkar.github.io/mire/continuing-education.html
-14. https://ashrafulsarkar.github.io/mire/education-course.html
+14. https://ashrafulsarkar.github.io/mire/michigan-builders-license-course.html
 15. https://ashrafulsarkar.github.io/mire/forget.html
 16. https://ashrafulsarkar.github.io/mire/license-classroom.html
 17. https://ashrafulsarkar.github.io/mire/license-course.html
