@@ -196,7 +196,7 @@ input[type="number"]{
     width: 100%;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0;
     margin-bottom: 0;
     padding: 14px;
@@ -329,7 +329,7 @@ li.shopping_cart span {
     padding: 40px 24px;
 }
 .login_popup label {
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -395,7 +395,7 @@ nav.main_nav ul li {
 nav.main_nav ul li a {
     font-size: 14px;
     line-height: 19px;
-    color: #0C273F;
+    color: #202020;
     font-weight: 700;
     padding: 27px 12px;
     display: block;
@@ -565,7 +565,7 @@ ul.submenu li ul.submenu::after {
     border-radius: 200px;
     border: 1px solid #164E7F;
     font-weight: 600;
-    color: #0C273F;
+    color: #202020;
 }
 .input_part input::placeholder {
     font-size: 14px;
@@ -597,7 +597,7 @@ ul.submenu li ul.submenu::after {
 .search_sugg ul li a {
     padding: 8px 8px 8px 24px;
     display: block;
-    color: #0C273F;
+    color: #202020;
     line-height: 20px;
     font-weight: 600;
     transition: all 0.3s ease 0s;
@@ -679,7 +679,7 @@ section.hero_section {
     display: inline-block;
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
     border-radius: 8px;
-    color: #0C273F;
+    color: #202020;
     font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
@@ -763,7 +763,7 @@ section.course_part {
     padding: 9px 20px;
     font-weight: 700;
     display: inline-block;
-    color: #0C273F;
+    color: #202020;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -933,7 +933,7 @@ section.course_part {
     background: #b99358;
 }
 .review_star span {
-    color: #0C273F;
+    color: #202020;
     font-size: 14px;
     line-height: 22px;
     font-weight: 600;
@@ -943,17 +943,17 @@ section.course_part {
     color: #d4a139;
 }
 .review_text p {
-    color: #0C273F;
+    color: #202020;
     margin-top: 15px;
 }
 .review_sender h4 {
-    color: #0C273F;
+    color: #202020;
     font-size: 14px;
     line-height: 22px;
     margin: 0;
 }
 .review_sender span {
-    color: #0C273F;
+    color: #202020;
     font-size: 12px;
     line-height: 20px;
 }
@@ -1015,14 +1015,14 @@ section.contact_area {
 }
 .request_contact_form .form-control {
     height: 48px;
-    color: #0C273F;
+    color: #202020;
     line-height: 36px;
 }
 .request_contact_form .nice-select.form-control {
     padding-left: .75rem;
 }
 .form-control:focus {
-    border-color: #0c273f;
+    border-color: #202020;
     box-shadow: 0 0 0 0.1px rgb(22 78 127);
 }
 .security_img {
@@ -1034,7 +1034,7 @@ section.contact_area {
     border: none;
     font-size: 16px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
     text-transform: uppercase;
     font-weight: 700 !important;
 }
@@ -1127,7 +1127,7 @@ section.bottom-mobile-menu {
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
-    color: #0C273F;
+    color: #202020;
     padding: 8px 16px;
     border: 1px solid #164E7F;
     box-sizing: border-box;
@@ -1276,7 +1276,7 @@ footer.footer_area {
 .overview-text-details p {
     font-size: 14px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
     padding-top: 16px;
 }
 .course-overview-btn a {
@@ -1353,7 +1353,7 @@ footer.footer_area {
     margin-left: 19px;
     font-size: 14px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
 }
 
 .course-part-single input[type="radio"] {
@@ -1406,7 +1406,7 @@ footer.footer_area {
     padding: 24px 0;
 }
 .news-info h5 {
-    color: #0C273F;
+    color: #202020;
     margin-bottom: 0;
 }
 .auto-load-modal input.form-control {
@@ -1417,7 +1417,7 @@ footer.footer_area {
     border: 1px solid #164E7F;
 }
 .info-garf p {
-    color: #0C273F;
+    color: #202020;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 0;
@@ -1426,13 +1426,13 @@ footer.footer_area {
 .thank-you-massage h3 {
     font-size: 32px;
     line-height: 36px;
-    color: #0C273F;
+    color: #202020;
     font-weight: 700;
 }
 .thank-you-massage p {
     font-size: 14px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
 }
 .thank-you-massage a {
     padding: 13px 60px;
@@ -1495,7 +1495,7 @@ footer.footer_area {
     line-height: 22px;
 }
 .builders-preparation a {
-    color: #0C273F;
+    color: #202020;
     font-size: 16px;
     line-height: 20px;
     background: linear-gradient(180deg, #D6B666 0%, #F2EB95 158.93%);
@@ -1655,13 +1655,13 @@ footer.footer_area {
     margin: -1px;
     font-size: 12px;
     line-height: 16px;
-    color: #202020222;
+    color: #202020;
     font-weight: 500;
 }
 .prebtn h5 {
     font-size: 36px;
     line-height: 40px;
-    color: #202020222;
+    color: #202020;
     margin-top: 5px;
     margin-bottom: 0;
 }
@@ -1677,7 +1677,7 @@ footer.footer_area {
     height: 100%;
     position: absolute;
     content: '';
-    background: #202020222;
+    background: #202020;
     top: 0;
     right: 16px;
 }
@@ -1707,7 +1707,7 @@ footer.footer_area {
 .other-course p {
     font-size: 16px;
     line-height: 18px;
-    color: #202020222;
+    color: #202020;
     margin: 0;
 }
 .other-course a {
@@ -1717,15 +1717,15 @@ footer.footer_area {
 }
 .data-short .nice-select {
     border: 1px solid #0C273F;
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
 }
 .data-short .current{
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
 }
 .data-short .nice-select.open .list li {
-    color: #202020222;
+    color: #202020;
     font-weight: 600;
 }
 .data-short {
@@ -1905,6 +1905,7 @@ td.add-to-btn input[type="submit"] {
     margin-bottom: 0;
     display: inline-block;
     float: left;
+    margin-bottom: 8px;
 }
 .patment-method p {
     font-size: 16px;
@@ -2574,7 +2575,7 @@ td.add-to-btn input[type="submit"] {
     color: #164E7F;
 }
 .join-form .form-group label {
-    color: #0C273F;
+    color: #202020;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
@@ -2716,7 +2717,7 @@ td.add-to-btn input[type="submit"] {
     padding: 8px 12px;
     display: inline-block;
     border-radius: 8px;
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
     margin: 4px;
 }
@@ -2818,7 +2819,7 @@ section.about {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
 }
 
@@ -2960,16 +2961,17 @@ section.about {
     border-radius: 8px;
 }
 .more-product-details h5 {
-    color: #0C273F;
+    color: #202020;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
     margin: 0;
+    margin-top: 8px;
 }
 .more-product-details span {
     font-size: 16px;
     line-height: 20px;
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
     display: block;
 }
@@ -3050,7 +3052,7 @@ section.about {
 
 /* checkout page */
 .checkout-part {
-    background: #F7F7F7;
+    background: #FAFAFA;
     border: 1px solid #B0B0B0;
     border-radius: 8px;
 }
@@ -3091,7 +3093,8 @@ section.about {
     font-size: 12px;
     line-height: 16px;
     display: block;
-    color: #0C273F;
+    color: #202020;
+    margin-top: 4px;
 }
 .form-group p {
     font-size: 14px;
@@ -3159,9 +3162,6 @@ section.about {
     line-height: 22px;
     color: #227EB5;
 }
-.checkout-part button.btn {
-    text-transform: none;
-}
 
 /* forget password */
 .forget-passbox {
@@ -3215,7 +3215,7 @@ section.about {
 .study-title p {
     font-size: 14px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
     max-width: 464px;
     padding: 8px 0;
     margin: 0;
@@ -3224,7 +3224,7 @@ section.about {
     font-size: 14px;
     line-height: 22px;
     display: flex;
-    color: #0C273F;
+    color: #202020;
     font-weight: 600;
 }
 .stady-details-list ul li i{
@@ -3269,7 +3269,7 @@ section.about {
     line-height: 22px;
     padding: 16px 0 22px;
     margin: 0;
-    color: #0C273F;
+    color: #202020;
 }
 .tool-btn .btn {
     padding: 10px 15px;
@@ -3283,14 +3283,14 @@ section.about {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
-    color: #0C273F;
+    color: #202020;
     font-weight: 700;
 }
 .price-title span {
     font-size: 12px;
     line-height: 16px;
     display: block;
-    color: #0C273F;
+    color: #202020;
 }
 .price-radio {
     display: flex;
