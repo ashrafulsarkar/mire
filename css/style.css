@@ -1,8 +1,8 @@
 /*
-  Theme Name: Appri - App Landing PSD Template
+  Theme Name: Meri Template
   Author: Ashraful Sarkar
-  Support: basictheme400@gmail.com
-  Description: App Landing PSD Template.
+  Support: http://ashrafulsarkar.com
+  Description: Meri Learning Platform
   Version: 1.0
 */
 
@@ -27,15 +27,10 @@
 */
 
 /**
-font-family: 'Bebas Neue', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-
 font-family: 'Inter', sans-serif;
 */
 
 /* 1. Theme default css */
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 body {
@@ -271,19 +266,22 @@ input[type="number"]{
     display: inline-block;
     margin-left: 15px;
 }
-.top_contact_info ul li i,
-.login-area ul li i {
-    color: #d4a139;
-    font-size: 16px;
-    margin-right: 4px;
+.top_contact_info ul li i, .login-area ul li i {
+    font-size: 20px;
+    margin-right: 8px;
 }
-.top_contact_info ul li a,
-.login-area ul li a {
+.top_contact_info ul li i:before,
+.login-area ul li i:before {
+    color: #d4a139;
+}
+.top_contact_info ul li a, .login-area ul li a {
     font-size: 14px;
     line-height: 22px;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 .login-area {
     text-align: right;
@@ -314,6 +312,9 @@ li.shopping_cart span {
     max-width: 297px;
     border: 0.5px solid #164E7F;
     overflow: hidden;
+}
+.modal {
+    z-index: 99999;
 }
 .modal-dialog {
     max-width: 568px;
@@ -1091,9 +1092,10 @@ section.bottom-mobile-menu {
     background: #fff;
     z-index: 99999;
 }
-.menu-item img {
-    width: 24px;
+.menu-item a i {
+    font-size: 24px;
 }
+
 .menu-item {
     text-align: center;
 }
@@ -1102,13 +1104,19 @@ section.bottom-mobile-menu {
     display: block;
 }
 .menu-item a span {
-    font-family: Open Sans;
-    font-weight: bold;
-    font-size: 8px;
+    font-weight: 500;
+    font-size: 10px;
     line-height: 12px;
     display: block;
-    color: #164E7F;
+    color: #b0b0b0;
     padding-top: 2px;
+}
+.menu-item.active a i::before {
+    color: #164e7f;
+}
+.menu-item.active a span {
+    color: #164e7f;
+    font-weight: 700;
 }
 .load_more {
     text-align: center;
@@ -1145,7 +1153,6 @@ footer.footer_area {
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    font-family: 'Open Sans',sans-serif;
     font-weight: normal;
     margin-top: 8px;
     margin-bottom: 0;
@@ -1159,7 +1166,6 @@ footer.footer_area {
     font-size: 16px;
     line-height: 24px;
     color: #DFC674;
-    font-family: 'Open Sans',sans-serif;
 }
 .widget_part ul li a {
     font-size: 14px;
@@ -1759,11 +1765,6 @@ footer.footer_area {
     width: 100%;
     background: #FAFAFA;
     overflow: hidden;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
 }
 .data-table table tbody td {
     border-left: 0.5px solid #B0B0B0;
@@ -1775,7 +1776,6 @@ footer.footer_area {
     width: 17%;
 }
 .data-table table tbody td:first-child {
-    border-left: none;
     text-align: left;
     padding: 16px 24px;
     width: 33%;
@@ -1783,11 +1783,12 @@ footer.footer_area {
 .data-table table tbody tr {
     border-top: 0.5px solid #B0B0B0;
 }
-.data-table table tbody tr:first-child {
-    border-top: none;
+.data-table table tbody tr:last-child {
+    border-bottom: 0.5px solid #B0B0B0;
 }
 .data-table table thead {
     background: #164E7F;
+    border-radius: 8px 8px 0 0;
 }
 .data-table table thead th {
     text-align: center;
@@ -1853,6 +1854,9 @@ th.th-reg,
 .data-table table tbody td:last-child{
     width: 16%;
 }
+.data-table table tbody td:last-child{
+    border-right: 0.5px solid #B0B0B0;
+}
 .data-table table tbody td.off-class {
     padding: 4px 24px;
     color: #B43535;
@@ -1873,7 +1877,9 @@ th.th-reg,
     width:100%;
     table-layout:fixed;
 }
-
+.data-table tfoot {
+    border-radius: 0 0 8px 8px;
+}
 
 /* scroll bar */
 /* Works on Firefox */

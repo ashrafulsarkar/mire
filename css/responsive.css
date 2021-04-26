@@ -384,6 +384,7 @@
     }
     .all-course-section .site-title {
         text-align: left !important;
+        margin-bottom: 32px;
     }
     .all-course-section .site-title h2::after{
         margin: inherit;
@@ -841,7 +842,7 @@
         height: 72px;
     }
     .card-items-details {
-        margin-left: 8px;
+        margin-left: 12px;
         max-width: 152px;
     }
     .card-items-details h5 {
