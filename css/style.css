@@ -2680,8 +2680,8 @@ td.add-to-btn input[type="submit"]:hover {
 .national-holding .nav-tabs .nav-item.show .nav-link,
 .national-holding .nav-tabs .nav-link.active {
     color: #164E7F;
-    background-color: #f7f7f7;
-    border-color: #B0B0B0 #B0B0B0 #f7f7f7;
+    background-color: #fafafa;
+    border-color: #B0B0B0 #B0B0B0 #fafafa;
     font-weight: 600;
 }
 .national-holding .nav-tabs .nav-link {
