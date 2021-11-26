@@ -1,9 +1,9 @@
 # mire
 # Demo
-https://ashrafulsarkar.github.io/mire
+https://ashrafulsarkar.github.io/mire/index.html
 
 # Page List
-1. https://ashrafulsarkar.github.io/mire
+1. https://ashrafulsarkar.github.io/mire/index.html
 2. https://ashrafulsarkar.github.io/mire/about.html
 3. https://ashrafulsarkar.github.io/mire/broker-home.html
 4. https://ashrafulsarkar.github.io/mire/broker-online.html
