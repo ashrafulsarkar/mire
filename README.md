@@ -1,4 +1,4 @@
-# mire
+# Mire - Real Estate Company
 # Demo
 https://ashrafulsarkar.github.io/mire/index.html
 
