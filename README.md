@@ -1,4 +1,12 @@
 # Mire - Real Estate Company
+This is a Real Estate Company's website. Home page with 23 pages. Looking Good, modern, responsive, and unique design. 
+- Beautiful Mobile Responsive.
+- Modern contact page.
+- Shop page with checkout and cart pages
+- Login and registration page available.
+- Buy a course and course-related steady materials.
+
+
 # Demo
 https://ashrafulsarkar.github.io/mire/index.html
 
